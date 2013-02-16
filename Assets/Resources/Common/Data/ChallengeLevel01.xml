@@ -1,0 +1,167 @@
+<Level name="Singularity">
+	<StaticObject name="BackgroundObj" 
+			PrefabName="Template_LevelScene_02" >
+	</StaticObject>
+	
+	<StaticObject name="MainCharacterStartPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="0" y="0" z="0" />
+	</StaticObject>
+	
+	<StaticObject name="SpawnPosition00" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-90" y="0" z="90" />
+	</StaticObject>
+
+	<StaticObject name="SpawnPosition01" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="0" y="0" z="90" />
+	</StaticObject>
+	
+	<StaticObject name="SpawnPosition02" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="90" y="0" z="90" />
+	</StaticObject>
+	
+	<StaticObject name="SpawnPosition03" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-90" y="0" z="0" />
+	</StaticObject>
+	
+	<StaticObject name="SpawnPosition05" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="90" y="0" z="0" />
+	</StaticObject>	
+	
+	<StaticObject name="SpawnPosition06" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-90" y="0" z="-90" />
+	</StaticObject>
+
+	<StaticObject name="SpawnPosition07" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="0" y="0" z="-90" />
+	</StaticObject>
+	
+	<StaticObject name="SpawnPosition08" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="90" y="0" z="-90" />
+	</StaticObject>	
+	
+	<Unit name="Unit_Nebula00" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D objectName="SpawnPosition00" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.0" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>
+	
+	<Unit name="Unit_Nebula01" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D objectName="SpawnPosition01" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.0" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>
+	
+	<Unit name="Unit_Nebula02" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D objectName="SpawnPosition02" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.0" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>	
+
+	<Unit name="Unit_Nebula03" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D objectName="SpawnPosition03" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.0" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>	
+
+
+	<Unit name="Unit_Nebula04" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D objectName="SpawnPosition05" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.0" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>	
+
+	<Unit name="Unit_Nebula06" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D objectName="SpawnPosition06" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.0" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>
+	
+	<Unit name="Unit_Nebula07" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D objectName="SpawnPosition07" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.0" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>
+	
+	<Unit name="Unit_Nebula08" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D objectName="SpawnPosition08" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.0" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>		
+
+	
+	<!--Unit name="MainCharacter" 
+			PrefabName="Template_MainCharacter_Enterprise01" 
+			unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise09" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D objectName="MainCharacterStartPosition" />
+		<OrientationEuler x="0" y="-90" z="0" />
+	</Unit-->
+	
+	<AddScriptOnObject objectName="ChallangeLevelObject" scriptName="ChallangeLevel01Manager" />	
+		
+	<AddScriptOnObject objectName="GlobalSingleton" scriptName="CountDownTimeManager" />	
+
+	<UsualEvent EventName="EnableMiniMapConditionEvent"
+			Enable="true" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />
+	</UsualEvent>
+	
+	<UsualEvent EventName="EnableEnergyManipulatorPanelConditionEvent"
+			Enable="true" >		
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />			
+	</UsualEvent>
+
+	<UsualEvent EventName="EnableBattleEventCameraManagerConditionEvent"
+			Enable="true"
+			ElapsedSec="3.0" >		
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />			
+	</UsualEvent>		
+	
+	<UsualEvent EventName="GUITextureShowTimeEvent"
+			objectName="MessageCard_ObjectiveChallangeLevel01" 
+			startSec="3.0" 
+			elapsedSec="1.0"
+			audioClipName="incomingtransmission_clean" 
+			/>
+	
+	<LoseCondition ConditionName="Condition_MainCharacterIsDead" />
+	
+	<BackgroundMusicAudioPath name="Star Trek - Romulan Ale, Captain!"/>
+</Level>

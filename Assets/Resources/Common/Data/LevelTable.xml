@@ -1,0 +1,15 @@
+<LevelTableXML>
+	<LevelFilePath path="TestLevel.xml"/>
+	<LevelFilePath path="Level01_Tutorial.xml"/>
+	<LevelFilePath path="Level02_KlingonsFury.xml"/>
+	<LevelFilePath path="Level03_EscoreVessel.xml"/>
+	<LevelFilePath path="Level04_ThroughTheNebula.xml"/>
+	<LevelFilePath path="Level05_ProtectTheTradeLine.xml"/>
+	<LevelFilePath path="Level06_AmbushInTrash.xml"/>
+	<LevelFilePath path="Level07_Warhead.xml"/>
+	<LevelFilePath path="Level08_AlliesorFoes.xml"/>
+	<LevelFilePath path="Level09_Singularity.xml"/>
+	<LevelFilePath path="Level09_Singularity_1.xml"/>
+	
+	<LevelFilePath path="ChallengeLevel01.xml"/>
+</LevelTableXML>

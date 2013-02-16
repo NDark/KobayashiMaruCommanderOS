@@ -1,0 +1,31 @@
+﻿[分享] 小林丸指揮官 v1.0 釋出
+
+各位新年快樂 Kobayashi Maru Commander 小林丸指揮官 v1.0 釋出了。
+小林丸指揮官 是一個 Star Trek 背景 及星際射擊 的 同人/原型遊戲
+本次已經是自2012年9月以來最後一個版本。感謝各位的支持。
+
+本版本新增了一個挑戰關卡，及船艦：伯格方塊，羅慕倫納拉達號，羅慕倫彎刀號，D型企業號。
+
+
+尤其有任何不能下載，不能執行的問題，或是任何問題都麻煩通知我
+（可以推文，ptt信件，或直接發表在facebook社團）。
+
+
+
+畫面截圖(screenshot)
+
+選擇主角船艦
+short link: http://tinyurl.com/chy9479
+
+挑戰1關卡
+short link: http://tinyurl.com/bv3rye4
+
+如何遊玩(how to play)
+
+# 網頁遊玩[瀏覽器需安裝Unity web player]
+http://kobayashi.gadgetapp.net
+# 下載壓縮檔
+short link: http://tinyurl.com/cg9escx
+
+臉書社團(facebook group):  
+http://www.facebook.com/groups/151280021681743/

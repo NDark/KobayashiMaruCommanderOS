@@ -1,0 +1,349 @@
+<Level name="Protect the Trade Line">
+	<StaticObject name="BackgroundObj" 
+			PrefabName="Template_LevelScene_02" >
+	</StaticObject>
+	
+	<StaticObject name="MainCharacterStartPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-50" y="0" z="50" />
+	</StaticObject>
+	
+	<StaticObject name="EmenyStarPosition1" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-95" y="0" z="90" />
+	</StaticObject>	
+	
+	<StaticObject name="EmenyStarPosition2" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="95" y="0" z="90" />
+	</StaticObject>	
+	
+	<StaticObject name="EmenyStarPosition3" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="90" y="0" z="-90" />
+	</StaticObject>		
+
+	
+	<StaticObject name="DestinationObj" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-90" y="0" z="-90" />
+	</StaticObject>
+	
+	<Unit name="Unit_SheetStarbase01" 
+			PrefabName="Template_SheetStarbase01" 
+			unitDataTemplateName="UnitDataTemplate_SheetStarbase01" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D objectName="DestinationObj" />
+	</Unit>	
+	
+	<Unit name="Unit_Rock001" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="-80" y="0" z="30" />
+	</Unit>
+	
+	<Unit name="Unit_Rock002" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="-50" y="0" z="25" />
+	</Unit>
+	
+	<Unit name="Unit_Rock003" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="-20" y="0" z="30" />
+	</Unit>	
+	
+	<Unit name="Unit_Rock004" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="10" y="0" z="20" />
+	</Unit>	
+	
+	<Unit name="Unit_Rock005" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="40" y="0" z="30" />
+	</Unit>	
+	
+	<Unit name="Unit_Rock011" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="-95" y="0" z="-5" />
+	</Unit>	
+
+	<Unit name="Unit_Rock012" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="-65" y="0" z="-15" />
+	</Unit>
+
+
+	<Unit name="Unit_Rock013" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="-35" y="0" z="-5" />
+	</Unit>
+	
+	<Unit name="Unit_Rock014" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="-5" y="0" z="-15" />
+	</Unit>	
+	
+	<Unit name="Unit_Rock021" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="-80" y="0" z="-40" />
+	</Unit>
+	
+	<Unit name="Unit_Rock022" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="-50" y="0" z="-45" />
+	</Unit>
+	
+	<Unit name="Nebula01" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D x="-95" y="0" z="90" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.01" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>	
+	
+	
+	<Unit name="Nebula02" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D x="95" y="0" z="90" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.01" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>	
+	
+	<Unit name="Nebula03" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D x="90" y="0" z="-90" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.01" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>	
+		
+	<Unit name="Nebula11" 
+			PrefabName="Template_Nebula02" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D x="-80" y="0" z="0" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.01" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+		<SupplementalPair label="SensorDamperMinimum" value="0.7" />
+	</Unit>		
+	
+	<Unit name="Nebula12" 
+			PrefabName="Template_Nebula02" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D x="0" y="0" z="-10" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.01" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+		<SupplementalPair label="SensorDamperMinimum" value="0.7" />
+	</Unit>		
+	
+	<Unit name="Nebula13" 
+			PrefabName="Template_Nebula02" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D x="70" y="0" z="-15" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.01" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+		<SupplementalPair label="SensorDamperMinimum" value="0.7" />
+	</Unit>	
+	
+	<Unit name="Unit_NealsonCargoship05" 
+			PrefabName="Template_NealsonCargoship05" 
+			unitDataTemplateName="UnitDataTemplate_NealsonCargoship05" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D x="-70" y="0" z="70" />
+		<OrientationEuler x="0" y="-90" z="0" />
+		<SupplementalPair label="RoutePosition0" value="70,0,70" />
+		<SupplementalPair label="RoutePosition1" value="90,0,0" />
+		<SupplementalPair label="RoutePosition2" value="-90,0,-90" />
+		<SupplementalPair label="judgeDistance" value="10" />		
+	</Unit>
+	
+	
+	<Unit name="MainCharacter" 
+			PrefabName="Template_MainCharacter_Enterprise02" 
+			unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise03" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D objectName="MainCharacterStartPosition" />
+		<OrientationEuler x="0" y="-90" z="0" />
+	</Unit>
+	
+	
+	<EnemyGeneration 
+			name="Enemy_RomulanWarbird001"
+			PrefabName="Template_RomulanWarbird01" 
+					 unitDataTemplateName="UnitDataTemplate_RomulanWarbird01" 
+					 raceName="RomulanEmpire" 
+					 sideName="Enemy" 
+					 time="25.0" >
+		<Position3D objectName="EmenyStarPosition1" />
+		<OrientationEuler x="0" y="-90" z="0" />
+		<SupplementalPair label="TargetName" value="Unit_NealsonCargoship05" />
+		<SupplementalPair label="WaitForReloadSec" value="1.0" />				
+	</EnemyGeneration>	
+	
+	<EnemyGeneration 
+			name="Enemy_RomulanWarbird002"
+			PrefabName="Template_RomulanWarbird01" 
+					 unitDataTemplateName="UnitDataTemplate_RomulanWarbird01" 
+					 raceName="RomulanEmpire" 
+					 sideName="Enemy" 
+					 time="80.0" >
+		<Position3D objectName="EmenyStarPosition2" />
+		<OrientationEuler x="0" y="180" z="0" />
+		<SupplementalPair label="TargetName" value="Unit_NealsonCargoship05" />
+		<SupplementalPair label="WaitForReloadSec" value="1.0" />		
+	</EnemyGeneration>	
+
+	<EnemyGeneration 
+			name="Enemy_RomulanWarbird003"
+			PrefabName="Template_RomulanWarbird01" 
+					 unitDataTemplateName="UnitDataTemplate_RomulanWarbird01" 
+					 raceName="RomulanEmpire" 
+					 sideName="Enemy" 
+					 time="110.0" >
+		<Position3D objectName="EmenyStarPosition3" />
+		<SupplementalPair label="TargetName" value="Unit_NealsonCargoship05" />
+		<SupplementalPair label="WaitForReloadSec" value="1.0" />		
+	</EnemyGeneration>		
+	
+	<UsualEvent EventName="EnableMiniMapConditionEvent"
+			Enable="true" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />			
+	</UsualEvent>
+	
+	<AddScriptOnObject objectName="GlobalSingleton" scriptName="ElapsedTimeManager" />
+	<UsualEvent EventName="ActiveElapsedTimeConditionEvent" >		
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />			
+	</UsualEvent>
+	
+	<UsualEvent EventName="GUITextureShowTimeEvent"
+			objectName="MessageCard_ObjectiveLevel05" 
+			startSec="3.0" 
+			elapsedSec="1.4"
+			audioClipName="incomingtransmission_clean" 
+			/>
+	
+	<UsualEvent EventName="SetLevelObjectiveTimeEvent" 
+			objectName="MessageCard_ObjectiveLevel05" 
+			switchObjectName="GUI_LevelObjectiveSwitcher" 
+			startSec="3.0" 
+			elapsedSec="1.4" 
+			/>
+	
+	<UsualEvent EventName="CameraRoutesEvent"
+			StartSec="3.0" 
+
+			IsDeactiveCameraFollower="true"
+			CameraFollowerName0="CameraFollowMainCharacter" 
+			CameraFollowerName1="CameraShakeEffect" 
+			
+			IsDeactiveMiniMap="true"
+			
+			JudgeDistance="10.0" >
+		
+		<PosRoute Destination="Unit_NealsonCargoship05" 
+				MoveTime="0.2" 
+				WaitTime="0.1" 
+				MoveDetectGUIObject="MessageCard_ObjectiveLevel05" 
+				WaitDetectGUIObject="MessageCard_ObjectiveLevel05" 
+				/>
+		
+		<PosRoute Destination="70,0,70" 
+				MoveTime="0.3" 
+				WaitTime="0.0" 
+				MoveDetectGUIObject="MessageCard_ObjectiveLevel05" 
+				WaitDetectGUIObject="MessageCard_ObjectiveLevel05" 				
+				/>
+		
+		<PosRoute Destination="90,0,0" 
+				MoveTime="0.2" 
+				WaitTime="0.1" 
+				MoveDetectGUIObject="MessageCard_ObjectiveLevel05" 
+				WaitDetectGUIObject="MessageCard_ObjectiveLevel05" 				
+				/>		
+		
+		<PosRoute Destination="-90,0,-90"
+				MoveTime="0.3" 
+				WaitTime="0.1" 
+				MoveDetectGUIObject="MessageCard_ObjectiveLevel05" 
+				WaitDetectGUIObject="MessageCard_ObjectiveLevel05" 				
+				/>				
+	
+		<PosRoute Destination="MainCharacter" 
+				MoveTime="0.1" 
+				WaitTime="0.1" 
+				MoveDetectGUIObject="MessageCard_ObjectiveLevel05" 
+				WaitDetectGUIObject="MessageCard_ObjectiveLevel05" 				
+				/>
+	
+	</UsualEvent>
+	
+	<UsualEvent EventName="GUITextureShowTimeEvent" 
+			objectName="MessageCard_Tutorial_PreciseAttack" 
+			startSec="5.0" 
+			elapsedSec="11.0" 
+			audioClipName=""/>	
+
+	<UsualEvent EventName="AudioPlayTimeEvent" 
+			StartSec="25.0" 
+			ElapsedSec="7.0"
+			AudioClipName="Star Trek Sound Effects - Red Alert Klaxon" />
+	
+
+
+	<VictoryCondition ConditionName="Condition_Collision" 
+		TestObjectName="Unit_NealsonCargoship05" 
+		PosAnchor="DestinationObj"
+		JudgeDistance="30" />
+	
+
+	
+	
+	<LoseCondition ConditionName="Condition_MainCharacterIsDead" />
+	<LoseCondition ConditionName="Condition_UnitIsDead" 
+		UnitName="Unit_NealsonCargoship05" />
+	
+	<BackgroundMusicAudioPath name="Star Trek - Romulan Ale, Captain!"/>
+</Level>

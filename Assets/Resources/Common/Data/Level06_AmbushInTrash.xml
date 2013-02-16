@@ -1,0 +1,415 @@
+<Level name="Ambush In Trash">
+	
+	<StaticObject name="BackgroundObj" 
+			PrefabName="Template_LevelScene_02" >
+	</StaticObject>
+	
+	<StaticObject name="MainCharacterStartPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-70" y="0" z="-90" />
+		
+	</StaticObject>
+	
+	<StaticObject name="DestinationObj" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-90" y="0" z="-90" />
+	</StaticObject>
+	
+	<StaticObject name="RescureUnitPosition1" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="70" y="0" z="-60" />
+	</StaticObject>
+	
+	<StaticObject name="RescureUnitPosition2" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-70" y="0" z="60" />
+	</StaticObject>
+
+	<StaticObject name="RescureUnitPosition3" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="90" y="0" z="90" />
+	</StaticObject>	
+	
+	<StaticObject name="AmbushUnitPosition001" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="50" y="0" z="-30" />
+	</StaticObject>
+
+	<StaticObject name="AmbushUnitPosition002" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="60" y="0" z="-85" />
+	</StaticObject>
+
+	<StaticObject name="AmbushUnitPosition003" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="20" y="0" z="-65" />
+	</StaticObject>
+	
+	<StaticObject name="AmbushUnitPosition011" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-89" y="0" z="30" />
+	</StaticObject>
+
+	<StaticObject name="AmbushUnitPosition012" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-41" y="0" z="57" />
+	</StaticObject>
+
+	<StaticObject name="AmbushUnitPosition013" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-50" y="0" z="13" />
+	</StaticObject>	
+	
+	<StaticObject name="AmbushUnitPosition021" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="46" y="0" z="75" />
+	</StaticObject>
+
+	<StaticObject name="AmbushUnitPosition022" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="25" y="0" z="20" />
+	</StaticObject>
+
+	<StaticObject name="AmbushUnitPosition023" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="75" y="0" z="45" />
+	</StaticObject>	
+	
+	<Unit name="Unit_RescureUnit01" 
+			PrefabName="Template_NealsonCargoship05" 
+			unitDataTemplateName="UnitDataTemplate_NealsonCargoship06" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D objectName="RescureUnitPosition1" />
+		<OrientationEuler x="0" y="90" z="0" />
+		<SupplementalPair label="TargetName" value="DestinationObj" />
+		<SupplementalPair label="judgeDistance" value="10" />	
+		<SupplementalPair label="addAIName" value="AI_MoveToDestination" />	
+	</Unit>	
+	
+	
+	<Unit name="Unit_AmbushUnit001" 
+			PrefabName="Template_KlingonBirdofPrey01" 
+			unitDataTemplateName="UnitDataTemplate_KlingonBirdofPrey06" 
+			raceName="KlingonEmpire" 
+			sideName="Enemy" >
+		<Position3D objectName="AmbushUnitPosition001" />
+		<OrientationEuler x="0" y="42" z="0" />
+		<SupplementalPair label="TargetName" value="MainCharacter" />
+		<SupplementalPair label="WaitForReloadSec" value="1.0" />
+		<SupplementalPair label="addAIName" value="AI_FireToTarget5" />	
+	</Unit>	
+	
+	<Unit name="Unit_AmbushUnit002" 
+			PrefabName="Template_KlingonBirdofPrey01" 
+			unitDataTemplateName="UnitDataTemplate_KlingonBirdofPrey06" 
+			raceName="KlingonEmpire" 
+			sideName="Enemy" >
+		<Position3D objectName="AmbushUnitPosition002" />
+		<OrientationEuler x="0" y="-72" z="0" />
+		<SupplementalPair label="TargetName" value="MainCharacter" />
+		<SupplementalPair label="WaitForReloadSec" value="1.0" />
+		<SupplementalPair label="addAIName" value="AI_FireToTarget5" />	
+	</Unit>	
+	
+	<Unit name="Unit_AmbushUnit003" 
+			PrefabName="Template_KlingonBirdofPrey01" 
+			unitDataTemplateName="UnitDataTemplate_KlingonBirdofPrey06" 
+			raceName="KlingonEmpire" 
+			sideName="Enemy" >
+		<Position3D objectName="AmbushUnitPosition003" />
+		<OrientationEuler x="0" y="192" z="0" />
+		<SupplementalPair label="TargetName" value="MainCharacter" />
+		<SupplementalPair label="WaitForReloadSec" value="1.0" />
+		<SupplementalPair label="addAIName" value="AI_FireToTarget5" />	
+	</Unit>	
+		
+	
+	
+	<Unit name="Unit_RescureUnit02" 
+			PrefabName="Template_FederationShuttle01" 
+			unitDataTemplateName="UnitDataTemplate_FederationShuttle06" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D objectName="RescureUnitPosition2" />
+		<OrientationEuler x="0" y="180" z="0" />
+		<SupplementalPair label="TargetName" value="DestinationObj" />
+		<SupplementalPair label="judgeDistance" value="10" />	
+		<SupplementalPair label="addAIName" value="AI_MoveToDestination" />	
+	</Unit>		
+	
+	<Unit name="Unit_AmbushUnit011" 
+			PrefabName="Template_KlingonWarbird" 
+			unitDataTemplateName="UnitDataTemplate_KlingonWarbird06" 
+			raceName="KlingonEmpire" 
+			sideName="Enemy" >
+		<Position3D objectName="AmbushUnitPosition011" />
+		<OrientationEuler x="0" y="164" z="0" />
+		<SupplementalPair label="TargetName" value="MainCharacter" />
+		<SupplementalPair label="WaitForReloadSec" value="1.0" />
+		<SupplementalPair label="addAIName" value="AI_FireToTarget5" />	
+	</Unit>	
+	
+	<Unit name="Unit_AmbushUnit012" 
+			PrefabName="Template_KlingonWarbird" 
+			unitDataTemplateName="UnitDataTemplate_KlingonWarbird06" 
+			raceName="KlingonEmpire" 
+			sideName="Enemy" >
+		<Position3D objectName="AmbushUnitPosition012" />
+		<OrientationEuler x="0" y="-32" z="0" />
+		<SupplementalPair label="TargetName" value="MainCharacter" />
+		<SupplementalPair label="WaitForReloadSec" value="1.0" />
+		<SupplementalPair label="addAIName" value="AI_FireToTarget5" />	
+	</Unit>	
+	
+	<Unit name="Unit_AmbushUnit013" 
+			PrefabName="Template_KlingonWarbird" 
+			unitDataTemplateName="UnitDataTemplate_KlingonWarbird06" 
+			raceName="KlingonEmpire" 
+			sideName="Enemy" >
+		<Position3D objectName="AmbushUnitPosition013" />
+		<OrientationEuler x="0" y="18" z="0" />
+		<SupplementalPair label="TargetName" value="MainCharacter" />
+		<SupplementalPair label="WaitForReloadSec" value="1.0" />
+		<SupplementalPair label="addAIName" value="AI_FireToTarget5" />	
+	</Unit>	
+	
+
+	
+	
+	<Unit name="Unit_RescureUnit03" 
+			PrefabName="Template_ConsolationHospitalship01" 
+			unitDataTemplateName="UnitDataTemplate_ConsolationHospitalship06" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D objectName="RescureUnitPosition3" />
+		<OrientationEuler x="0" y="130" z="0" />
+		<SupplementalPair label="TargetName" value="DestinationObj" />
+		<SupplementalPair label="judgeDistance" value="10" />	
+		<SupplementalPair label="addAIName" value="AI_MoveToDestination" />	
+	</Unit>	
+	
+	<Unit name="Unit_AmbushUnit021" 
+			PrefabName="Template_RomulanWarbird01" 
+			unitDataTemplateName="UnitDataTemplate_RomulanWarbird06" 
+			raceName="RomulanEmpire" 
+			sideName="Enemy" >
+		<Position3D objectName="AmbushUnitPosition021" />
+		<OrientationEuler x="0" y="64" z="0" />
+		<SupplementalPair label="TargetName" value="MainCharacter" />
+		<SupplementalPair label="WaitForReloadSec" value="3.0" />
+		<SupplementalPair label="addAIName" value="AI_FireToTarget5" />	
+	</Unit>	
+	
+	<Unit name="Unit_AmbushUnit022" 
+			PrefabName="Template_RomulanWarbird01" 
+			unitDataTemplateName="UnitDataTemplate_RomulanWarbird06" 
+			raceName="RomulanEmpire" 
+			sideName="Enemy" >
+		<Position3D objectName="AmbushUnitPosition022" />
+		<OrientationEuler x="0" y="-2" z="0" />
+		<SupplementalPair label="TargetName" value="MainCharacter" />
+		<SupplementalPair label="WaitForReloadSec" value="3.0" />
+		<SupplementalPair label="addAIName" value="AI_FireToTarget5" />	
+	</Unit>	
+	
+	<Unit name="Unit_AmbushUnit023" 
+			PrefabName="Template_RomulanWarbird01" 
+			unitDataTemplateName="UnitDataTemplate_RomulanWarbird06" 
+			raceName="RomulanEmpire" 
+			sideName="Enemy" >
+		<Position3D objectName="AmbushUnitPosition023" />
+		<OrientationEuler x="0" y="118" z="0" />
+		<SupplementalPair label="TargetName" value="MainCharacter" />
+		<SupplementalPair label="WaitForReloadSec" value="3.0" />
+		<SupplementalPair label="addAIName" value="AI_FireToTarget5" />
+	</Unit>	
+	
+	
+	<Unit name="Unit_SheetStarbase01" 
+			PrefabName="Template_SheetStarbase01" 
+			unitDataTemplateName="UnitDataTemplate_SheetStarbase01" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D objectName="DestinationObj" />
+	</Unit>
+	
+	
+	<Unit name="MainCharacter" 
+			PrefabName="Template_MainCharacter_Enterprise01" 
+			unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise06" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D objectName="MainCharacterStartPosition" />
+		<OrientationEuler x="0" y="-90" z="0" />
+	</Unit>
+	
+
+	
+	<UsualEvent EventName="ReplaceAIConditionEvent"
+			ObjectName0="Unit_AmbushUnit001" 
+			ObjectName1="Unit_AmbushUnit002" 
+			ObjectName2="Unit_AmbushUnit003" 
+			RemoveAIName = ""
+			AddAIName="AI_PowerUpAndReplaceAI" >
+		
+		<Condition ConditionName="Condition_Collision" 
+			TestObjectName="MainCharacter" 
+			PosAnchor="RescureUnitPosition1"
+			JudgeDistance="30" />
+		
+		</UsualEvent>
+	
+	<UsualEvent EventName="ReplaceAIConditionEvent" 
+			ObjectName0="Unit_AmbushUnit011" 
+			ObjectName1="Unit_AmbushUnit012" 
+			ObjectName2="Unit_AmbushUnit013" 
+			RemoveAIName = ""
+			AddAIName="AI_PowerUpAndReplaceAI" >
+		
+		<Condition ConditionName="Condition_Collision" 
+			TestObjectName="MainCharacter" 
+			PosAnchor="RescureUnitPosition2"
+			JudgeDistance="30" />
+		
+	</UsualEvent>
+		
+	<UsualEvent EventName="ReplaceAIConditionEvent" 
+			ObjectName0="Unit_AmbushUnit021" 
+			ObjectName1="Unit_AmbushUnit022" 
+			ObjectName2="Unit_AmbushUnit023" 
+			RemoveAIName = ""
+			AddAIName="AI_PowerUpAndReplaceAI" >
+		
+		<Condition ConditionName="Condition_Collision" 
+			TestObjectName="MainCharacter" 
+			PosAnchor="RescureUnitPosition3"
+			JudgeDistance="30" />		
+		
+	</UsualEvent>
+			
+	
+	<UsualEvent EventName="GUITextureShowTimeEvent"
+			objectName="MessageCard_ObjectiveLevel06" 
+			startSec="3.0" 
+			elapsedSec="2.0"
+			audioClipName="incomingtransmission_clean"
+			/>
+	
+	
+	<UsualEvent EventName="SetLevelObjectiveTimeEvent" 
+			objectName="MessageCard_ObjectiveLevel06" 
+			switchObjectName="GUI_LevelObjectiveSwitcher" 
+			startSec="3.0" 
+			elapsedSec="2.0" 
+			/>
+		
+	<UsualEvent EventName="CameraRoutesEvent"
+			StartSec="3.0" 
+
+			IsDeactiveCameraFollower="true"
+			CameraFollowerName0="CameraFollowMainCharacter" 
+			CameraFollowerName1="CameraShakeEffect" 
+			
+			IsDeactiveMiniMap="true"
+			
+			JudgeDistance="10.0" >
+		
+		<PosRoute Destination="MainCharacter" 
+				MoveTime="0.0" 
+				WaitTime="0.1" 
+				MoveDetectGUIObject="MessageCard_ObjectiveLevel06" 
+				WaitDetectGUIObject="MessageCard_ObjectiveLevel06" 
+				/>
+		
+		<PosRoute Destination="Unit_RescureUnit01" 
+				MoveTime="0.3" 
+				WaitTime="0.2" 
+				MoveDetectGUIObject="MessageCard_ObjectiveLevel06" 
+				WaitDetectGUIObject="MessageCard_ObjectiveLevel06" 				
+				/>
+		
+		<PosRoute Destination="Unit_RescureUnit02" 
+				MoveTime="0.3" 
+				WaitTime="0.2" 
+				MoveDetectGUIObject="MessageCard_ObjectiveLevel06" 
+				WaitDetectGUIObject="MessageCard_ObjectiveLevel06" 								
+				/>		
+		
+		<PosRoute Destination="Unit_RescureUnit03"
+				MoveTime="0.3" 
+				WaitTime="0.2" 
+				MoveDetectGUIObject="MessageCard_ObjectiveLevel06" 
+				WaitDetectGUIObject="MessageCard_ObjectiveLevel06" 												
+				/>				
+	
+		<PosRoute Destination="MainCharacter" 
+				MoveTime="0.3" 
+				WaitTime="0.1" 
+				MoveDetectGUIObject="MessageCard_ObjectiveLevel06" 
+				WaitDetectGUIObject="MessageCard_ObjectiveLevel06" 												
+				/>
+	
+	</UsualEvent>	
+	
+	<UsualEvent EventName="EnableMiniMapConditionEvent"
+			Enable="true" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />			
+	</UsualEvent>
+	
+	<AddScriptOnObject objectName="GlobalSingleton" scriptName="ElapsedTimeManager" />
+	<UsualEvent EventName="ActiveElapsedTimeConditionEvent" >		
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />			
+	</UsualEvent>
+	
+	<UsualEvent EventName="ShowMessageConditionEvent"
+			MessageIndex="1202" >
+		
+		<Condition ConditionName="Condition_Collision" 
+			TestObjectName="Unit_RescureUnit01" 
+			PosAnchor="DestinationObj"
+			JudgeDistance="30" />
+		
+	</UsualEvent>
+	
+	<UsualEvent EventName="ShowMessageConditionEvent" 
+			MessageIndex="1203" >
+		
+		<Condition ConditionName="Condition_Collision" 
+			TestObjectName="Unit_RescureUnit02" 
+			PosAnchor="DestinationObj"
+			JudgeDistance="30" />		
+		
+	</UsualEvent>
+
+	<UsualEvent EventName="ShowMessageConditionEvent" 
+			MessageIndex="1204" >
+		
+		<Condition ConditionName="Condition_Collision" 
+			TestObjectName="Unit_RescureUnit03" 
+			PosAnchor="DestinationObj"
+			JudgeDistance="30" />
+		
+	</UsualEvent>
+	
+
+	<VictoryCondition ConditionName="Condition_Collision" 
+		TestObjectName0="Unit_RescureUnit01" 
+		TestObjectName1="Unit_RescureUnit02" 
+		TestObjectName2="Unit_RescureUnit03" 
+		PosAnchor="DestinationObj"
+		JudgeDistance="40" />
+	
+
+	<LoseCondition ConditionName="Condition_MainCharacterIsDead" />
+	<LoseCondition ConditionName="Condition_UnitIsDead" 
+		UnitName="Unit_RescureUnit01" />
+	<LoseCondition ConditionName="Condition_UnitIsDead" 
+		UnitName="Unit_RescureUnit02" />
+	<LoseCondition ConditionName="Condition_UnitIsDead" 
+		UnitName="Unit_RescureUnit03" />	
+	
+	<BackgroundMusicAudioPath name="Star Trek - Romulan Ale, Captain!"/>
+</Level>

@@ -1,0 +1,271 @@
+<Level name="War Head">
+	
+	<StaticObject name="BackgroundObj" 
+			PrefabName="Template_LevelScene_02" >
+	</StaticObject>
+	
+	
+	<StaticObject name="DreadNoughtSpawnPosition01" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-90" y="0" z="90" />
+	</StaticObject>
+
+	<StaticObject name="DreadNoughtSpawnPosition02" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="0" y="0" z="90" />
+	</StaticObject>
+	
+	<StaticObject name="DreadNoughtSpawnPosition03" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="90" y="0" z="90" />
+	</StaticObject>
+	
+	
+	<StaticObject name="PlanetPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="0" y="0" z="-120" />
+	</StaticObject>
+	
+	<StaticObject name="MainCharacterStartPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-50" y="0" z="-50" />
+	</StaticObject>
+
+
+	
+	<Unit name="Unit_Planet01" 
+			PrefabName="Template_Planet01" 
+			unitDataTemplateName="UnitDataTemplate_Planet01" 
+			raceName="NetrualUnit" 
+			sideName="Ally" >
+		<Position3D objectName="PlanetPosition" />
+	</Unit>	
+	
+	
+	<Unit name="Unit_Nebula01" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D objectName="DreadNoughtSpawnPosition01" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.0" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>
+	
+	<Unit name="Unit_Nebula02" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D objectName="DreadNoughtSpawnPosition02" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.0" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>
+	
+	<Unit name="Unit_Nebula03" 
+			PrefabName="Template_Nebula01" 
+			unitDataTemplateName="UnitDataTemplate_Nebula01"  >
+		<Position3D objectName="DreadNoughtSpawnPosition03" />	
+		<SupplementalPair label="RotateAngularSpeed" value="0.0" />
+		<SupplementalPair label="DriftSpeed" value="0.0" />
+		<SupplementalPair label="SensorDamperDistance" value="40" />
+	</Unit>	
+	
+	
+	
+	<Unit name="Unit_Rock001" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01_7" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="-90" y="0" z="-30" />
+	</Unit>
+	
+	<Unit name="Unit_Rock002" 
+			PrefabName="Template_Rock01" 
+			unitDataTemplateName="UnitDataTemplate_Rock01_7" 
+			raceName="NetrualUnit" 
+			sideName="Other" >
+		<Position3D x="90" y="0" z="0" />
+	</Unit>	
+	
+	<Unit name="MainCharacter" 
+			PrefabName="Template_MainCharacter_DeltaFlyer01" 
+			unitDataTemplateName="UnitDataTemplate_MainCharacter_DeltaFlyer07" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D objectName="MainCharacterStartPosition" />
+		<OrientationEuler x="0" y="0" z="0" />
+	</Unit>
+	
+	
+	<EnemyGeneration 
+			name="Enemy_DreadNought01" 
+			PrefabName="Template_CardassianDreadNought" 
+			unitDataTemplateName="UnitDataTemplate_CardassianDreadNought07_1" 
+			raceName="CardassianEmpire" 
+			sideName="Enemy" 
+			time="5.0" >
+		<Position3D objectName="DreadNoughtSpawnPosition01" />
+		<OrientationEuler x="0" y="180" z="0" />
+		<SupplementalPair label="TargetName" value="Unit_Planet01" />
+		<SupplementalPair label="ShockwaveDamage" value="3.0" />
+	</EnemyGeneration>	
+
+	<EnemyGeneration 
+			name="Enemy_DreadNought02" 
+			PrefabName="Template_CardassianDreadNought" 
+			unitDataTemplateName="UnitDataTemplate_CardassianDreadNought07_2" 
+			raceName="CardassianEmpire" 
+			sideName="Enemy" 
+			time="50.0" >
+		<Position3D objectName="DreadNoughtSpawnPosition02" />
+		<OrientationEuler x="0" y="180" z="0" />
+		<SupplementalPair label="TargetName" value="Unit_Planet01" />
+		<SupplementalPair label="ShockwaveDamage" value="3.0" />
+	</EnemyGeneration>	
+
+	<EnemyGeneration 
+			name="Enemy_DreadNought03" 
+			PrefabName="Template_CardassianDreadNought" 
+			unitDataTemplateName="UnitDataTemplate_CardassianDreadNought07_2" 
+			raceName="CardassianEmpire" 
+			sideName="Enemy" 
+			time="80.0" >
+		<Position3D objectName="DreadNoughtSpawnPosition03" />
+		<OrientationEuler x="0" y="180" z="0" />
+		<SupplementalPair label="TargetName" value="Unit_Planet01" />
+		<SupplementalPair label="ShockwaveDamage" value="3.0" />
+	</EnemyGeneration>
+	
+	<EnemyGeneration 
+			name="Enemy_DreadNought04" 
+			PrefabName="Template_CardassianDreadNought" 
+			unitDataTemplateName="UnitDataTemplate_CardassianDreadNought07_2" 
+			raceName="CardassianEmpire" 
+			sideName="Enemy" 
+			time="110.0" >
+		<Position3D objectName="DreadNoughtSpawnPosition01" />
+		<OrientationEuler x="0" y="180" z="0" />
+		<SupplementalPair label="TargetName" value="Unit_Planet01" />
+		<SupplementalPair label="ShockwaveDamage" value="3.0" />
+	</EnemyGeneration>	
+
+	<EnemyGeneration 
+			name="Enemy_DreadNought05" 
+			PrefabName="Template_CardassianDreadNought" 
+			unitDataTemplateName="UnitDataTemplate_CardassianDreadNought07_2" 
+			raceName="CardassianEmpire" 
+			sideName="Enemy" 
+			time="120.0" >
+		<Position3D objectName="DreadNoughtSpawnPosition02" />
+		<OrientationEuler x="0" y="180" z="0" />
+		<SupplementalPair label="TargetName" value="Unit_Planet01" />
+		<SupplementalPair label="ShockwaveDamage" value="3.0" />
+	</EnemyGeneration>	
+
+	<EnemyGeneration 
+			name="Enemy_DreadNought06" 
+			PrefabName="Template_CardassianDreadNought" 
+			unitDataTemplateName="UnitDataTemplate_CardassianDreadNought07_2" 
+			raceName="CardassianEmpire" 
+			sideName="Enemy" 
+			time="130.0" >
+		<Position3D objectName="DreadNoughtSpawnPosition03" />
+		<OrientationEuler x="0" y="180" z="0" />
+		<SupplementalPair label="TargetName" value="Unit_Planet01" />
+		<SupplementalPair label="ShockwaveDamage" value="3.0" />
+	</EnemyGeneration>
+	
+	<VictoryCondition ConditionName="Condition_RemainingEnemyIsZero" />
+	<LoseCondition ConditionName="Condition_MainCharacterIsDead" />
+	<LoseCondition ConditionName="Condition_UnitIsDead" 
+		UnitName="Unit_Planet01" />
+	
+	<UsualEvent EventName="EnableMiniMapConditionEvent"
+			Enable="true" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />			
+	</UsualEvent>
+	
+	<AddScriptOnObject objectName="GlobalSingleton" scriptName="ElapsedTimeManager" />
+	<UsualEvent EventName="ActiveElapsedTimeConditionEvent" >		
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />			
+	</UsualEvent>
+
+	<UsualEvent EventName="GUITextureShowTimeEvent"
+			objectName="MessageCard_ObjectiveLevel07" 
+			startSec="3.0" 
+			elapsedSec="1.4"
+			audioClipName="incomingtransmission_clean" 
+			/>
+	
+	<UsualEvent EventName="SetLevelObjectiveTimeEvent" 
+			objectName="MessageCard_ObjectiveLevel07" 
+			switchObjectName="GUI_LevelObjectiveSwitcher" 
+			startSec="3.0" 
+			elapsedSec="1.4" 
+			/>
+	
+	<UsualEvent EventName="GUITextureShowTimeEvent"
+			objectName="MessageCard_Tutorial_HighGenShield" 
+			startSec="6.0" 
+			elapsedSec="1.0"
+			audioClipName="" />
+	
+	<UsualEvent EventName="CameraRoutesEvent"
+			StartSec="5.0" 
+
+			IsDeactiveCameraFollower="true"
+			CameraFollowerName0="CameraFollowMainCharacter" 
+			CameraFollowerName1="CameraShakeEffect" 
+			
+			IsDeactiveMiniMap="true"
+			
+			JudgeDistance="10.0" >
+		
+		<PosRoute Destination="Enemy_DreadNought01" 
+				MoveTime="1.0" 
+				WaitTime="1.0" 
+				MoveDetectGUIObject="" 
+				WaitDetectGUIObject="MessageCard_Tutorial_HighGenShield" 
+				/>
+		
+		<PosRoute Destination="MainCharacter" 
+				MoveTime="1.0" 
+				WaitTime="0.0" 
+				MoveDetectGUIObject="" 
+				WaitDetectGUIObject="" 
+				/>		
+	</UsualEvent>
+	
+	<UsualEvent EventName="EnableEnergyManipulatorPanelConditionEvent"
+			Enable="true" >		
+		<Condition ConditionName="Condition_Time" 
+			StartTime="8.0" />			
+	</UsualEvent>
+	
+	<UsualEvent EventName="GUITextureShowTimeEvent"
+			objectName="MessageCard_Tutorial_EnergyManipulatorPanel" 
+			startSec="8.0" 
+			elapsedSec="1.0"
+			audioClipName="" />
+	
+	<UsualEvent EventName="RandomizeObjectsConditionEvent"
+			ObjectName0="DreadNoughtSpawnPosition01" 
+			ObjectName1="DreadNoughtSpawnPosition02" 
+			ObjectName2="DreadNoughtSpawnPosition03" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="1.0" />			
+	</UsualEvent>		
+	
+	<UsualEvent EventName="RandomizeObjectsConditionEvent"
+			ObjectName0="DreadNoughtSpawnPosition01" 
+			ObjectName1="DreadNoughtSpawnPosition02" 
+			ObjectName2="DreadNoughtSpawnPosition03"  >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="100.0" />			
+	</UsualEvent>		
+
+	
+	<BackgroundMusicAudioPath name="Star Trek - Romulan Ale, Captain!"/>
+</Level>

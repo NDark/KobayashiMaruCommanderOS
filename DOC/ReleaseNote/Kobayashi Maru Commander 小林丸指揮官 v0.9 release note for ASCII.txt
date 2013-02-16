@@ -1,0 +1,38 @@
+﻿[分享] 小林丸指揮官 v0.9 釋出
+
+各位好 Kobayashi Maru Commander 小林丸指揮官 v0.9 釋出了。
+小林丸指揮官 是一個 Star Trek 背景 及星際射擊 的 同人/原型遊戲
+自2012年9月以來已經釋出五次版本。
+本專案已經接近最後一個版本，
+預計再一次釋出就會結束專案的開發並且開放原始碼。
+有興趣接手的朋友請來信洽談。
+
+
+本版本新增了各式船艦：Delta Flyer，卡達西導彈，卡達西Galor級，法瑞吉D'Kora級，聯邦Defiant級，羅慕倫Valdore級。
+還加上了三個關卡。達到總共九關。
+在第九關有神秘特別來賓，對其他科幻影集有興趣的朋友們請一定要試試看。
+
+
+
+尤其有任何不能下載，不能執行的問題，或是任何問題都麻煩通知我
+（可以推文，ptt信件，或直接發表在facebook社團）。
+
+
+
+畫面截圖(screenshot)
+
+新的選關介面
+short link: http://tinyurl.com/bhzs2cr
+穿梭機保護星球關卡
+short link: http://tinyurl.com/akp2nbo
+
+如何遊玩(how to play)
+
+# 網頁遊玩[瀏覽器需安裝Unity web player]
+http://kobayashi.gadgetapp.net
+# 下載壓縮檔
+short link: http://tinyurl.com/apdnsoo
+
+
+臉書社團(facebook group):  
+http://www.facebook.com/groups/151280021681743/

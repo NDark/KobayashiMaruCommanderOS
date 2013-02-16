@@ -1,0 +1,199 @@
+<WeaponParamTable>
+	<WeaponParam componentName="Weapon_Phaser_Front01" 
+			angle="80" 
+			range="40.0" 
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_Phaser_Front02" angle="80" range="40.0"  
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_Phaser_Front03" angle="80" range="40.0"  
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_Phaser_Front04" angle="80" range="40.0"  
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>	
+	<WeaponParam componentName="Weapon_Phaser_Front05" angle="80" range="40.0"  
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_Phaser_Front06" angle="80" range="40.0"  
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>	
+	
+	<WeaponParam componentName="Weapon_Phaser_Rear01" angle="80" range="40.0" 
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>
+	
+	<WeaponParam componentName="Weapon_DisruptorArray_Front01" angle="80" range="40.0" 
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorArray_Front02" angle="80" range="40.0" 
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorArray_Front03" angle="80" range="40.0" 
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorArray_Rear02" angle="80" range="40.0" 
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorArray_Rear03" angle="80" range="40.0" 
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>	
+
+
+	
+	<WeaponParam componentName="Weapon_DisruptorArray_Left01" angle="80" range="40.0" 
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorArray_Left02" angle="80" range="40.0" 
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>
+	
+	<WeaponParam componentName="Weapon_DisruptorArray_Right01" angle="80" range="40.0" 
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>	
+	<WeaponParam componentName="Weapon_DisruptorArray_Right02" angle="80" range="40.0" 
+			accuracy="0.9"
+			fireAudioName="Star Trek Sound Effects - Phaser Bank">
+	</WeaponParam>	
+	
+	
+	<WeaponParam componentName="Weapon_DisruptorCannon_Front01" angle="30" range="30.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_DisruptorCannon">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorCannon_Front02" angle="30" range="30.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_DisruptorCannon">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorCannon_Front03" angle="30" range="30.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_DisruptorCannon">
+	</WeaponParam>	
+	
+	<WeaponParam componentName="Weapon_DisruptorCannon_Left01" angle="30" range="30.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_DisruptorCannon">
+	</WeaponParam>	
+	<WeaponParam componentName="Weapon_DisruptorCannon_Left02" angle="30" range="30.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_DisruptorCannon">
+	</WeaponParam>		
+	<WeaponParam componentName="Weapon_DisruptorCannon_Right01" angle="30" range="30.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_DisruptorCannon">
+	</WeaponParam>	
+	<WeaponParam componentName="Weapon_DisruptorCannon_Right02" angle="30" range="30.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_DisruptorCannon">
+	</WeaponParam>	
+
+	
+	<WeaponParam componentName="Weapon_CylonCannon_Left01" angle="30" range="30" 
+			accuracy="0.5"
+			fireAudioName="ViperCannon01">
+	</WeaponParam>		
+	<WeaponParam componentName="Weapon_CylonCannon_Right01" angle="30" range="30" 
+			accuracy="0.5"
+			fireAudioName="ViperCannon01">
+	</WeaponParam>
+	
+	<WeaponParam componentName="Weapon_BattleStarCannon_Front01" angle="379" range="120" 
+			accuracy="0.5"
+			fireAudioName="BattleStarCannon01">
+	</WeaponParam>		
+	<WeaponParam componentName="Weapon_BattleStarCannon_Rear01" angle="379" range="120" 
+			accuracy="0.5"
+			fireAudioName="BattleStarCannon01">
+	</WeaponParam>	
+	
+
+	
+	<WeaponParam componentName="Weapon_PhotonTorpedo01" angle="40" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorTorpedo_Front01" angle="40" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorTorpedo_Front02" angle="40" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorTorpedo_Front03" angle="40" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorTorpedo_Front04" angle="40" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>	
+	
+	<WeaponParam componentName="Weapon_DisruptorTorpedo_Rear01" angle="40" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorTorpedo_Left01" angle="40" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorTorpedo_Left02" angle="40" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>	
+	<WeaponParam componentName="Weapon_DisruptorTorpedo_Right01" angle="40" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_DisruptorTorpedo_Right02" angle="40" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	
+	<WeaponParam componentName="Weapon_NaradaTorpedo01" angle="80" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>	
+	<WeaponParam componentName="Weapon_NaradaTorpedo02" angle="80" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_NaradaTorpedo03" angle="80" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_NaradaTorpedo04" angle="80" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_NaradaTorpedo05" angle="80" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+	<WeaponParam componentName="Weapon_NaradaTorpedo06" angle="80" range="55.0" 
+			accuracy="0.5"
+			fireAudioName="Audio_PhotonTorpedo">
+	</WeaponParam>
+
+	
+	<WeaponParam componentName="Weapon_TrackorBeam01" angle="179" range="40.0" 
+			accuracy="1.0"
+			fireAudioName="TractorBeam">
+	</WeaponParam>	
+</WeaponParamTable>

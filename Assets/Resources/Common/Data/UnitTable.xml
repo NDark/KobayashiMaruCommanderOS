@@ -1,0 +1,2714 @@
+<UnitTemplateTable>
+	<!-- UnitDataTemplate_Rock01 -->			
+	<Unit unitDataTemplateName="UnitDataTemplate_Rock01" 
+		  unitDataGUITextureName="UnitDataGUIBackground_Rock01" 
+		  UnitDisplayNameIndex="3001" >
+		<Component name= "UnitIntagraty" >
+			<hp max="7" />
+		</Component>
+		<AddComponent name="AI_RandomMove" />
+		<AddComponent name="AI_CreateSelf2" />
+	</Unit>	
+
+	<!-- UnitDataTemplate_Rock01_7 -->			
+	<Unit unitDataTemplateName="UnitDataTemplate_Rock01_7" 
+		  unitDataGUITextureName="UnitDataGUIBackground_Rock01" 
+		  UnitDisplayNameIndex="3001" >
+		<Component name= "UnitIntagraty" >
+			<hp max="2.9" />
+		</Component>
+		<AddComponent name="AI_RandomMove" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_Rock02 -->		
+	<Unit unitDataTemplateName="UnitDataTemplate_Rock02"
+		unitDataGUITextureName="UnitDataGUIBackground_Rock02" 
+		UnitDisplayNameIndex="3001" >
+		<Component name= "UnitIntagraty" >
+			<hp max="3" />
+		</Component>
+		<AddComponent name="AI_RandomMove" />
+		<AddComponent name="AI_CreateSelf" />
+	</Unit>
+	
+	<!-- UnitDataTemplate_Nebula01 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_Nebula01"
+		  UnitDisplayNameIndex="3002" >
+		<AddComponent name="AI_RandomMove" />
+		<AddComponent name="Nebula_SensorDamper" />
+	</Unit>
+	
+	<!-- UnitDataTemplate_Planet01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_Planet01"
+		unitDataGUITextureName="UnitDataGUIBackground_Planet01" 
+		UnitDisplayNameIndex="3003" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="8" />
+		</Component>
+	</Unit>	
+	
+	<!-- UnitDataTemplate_CardassianDreadNought07_1 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_CardassianDreadNought07_1"
+		unitDataGUITextureName="UnitDataGUIBackground_CardassianDreadNought" 
+		UnitDisplayNameIndex="3061" >
+		<Component name= "UnitIntagraty" >
+			<hp max="11" />
+		</Component>
+		
+		<Component name= "Shield_Whole01" >
+			<hp max="11" />			
+			<energy max="10" />
+			<generation max="1.0"/>
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="3" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />
+		<AddComponent name="AI_CollideTo" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_CardassianDreadNought07_2 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_CardassianDreadNought07_2"
+		unitDataGUITextureName="UnitDataGUIBackground_CardassianDreadNought" 
+		UnitDisplayNameIndex="3061" >
+		<Component name= "UnitIntagraty" >
+			<hp max="11" />
+		</Component>
+		
+		<Component name= "Shield_Whole01" >
+			<hp max="11" />			
+			<energy max="10" />
+			<generation max="1.0"/>
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="5" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />
+		<AddComponent name="AI_CollideTo" />
+	</Unit>		
+	
+	<!-- UnitDataTemplate_CardassianGalor08 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_CardassianGalor08"
+		unitDataGUITextureName="UnitDataGUIBackground_CardassianGalor01" 
+		UnitDisplayNameIndex="3062" >
+		<Component name= "UnitIntagraty" >
+			<hp max="20" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Left05" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right05" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<AuxiliaryEnergy max="20" init="0" />		
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>			
+	
+
+	<!-- UnitDataTemplate_FerengiD'Kora08 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_FerengiD'Kora08"
+		unitDataGUITextureName="UnitDataGUIBackground_FerengiD'Kora01" 
+		UnitDisplayNameIndex="3071" >
+		<Component name= "UnitIntagraty" >
+			<hp max="10" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Left06" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right06" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<AuxiliaryEnergy max="20" init="0" />		
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>			
+	
+
+	
+	<!-- UnitDataTemplate_KlingonWarbird -->
+	<Unit unitDataTemplateName="UnitDataTemplate_KlingonWarbird"
+		unitDataGUITextureName="UnitDataGUIBackground_KlingonWarbird01" 
+		UnitDisplayNameIndex="3031" >
+		<Component name= "UnitIntagraty" >
+			<hp max="25" init="12" />
+		</Component>		
+
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1" />
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>			
+			<effect max="1" />
+		</Component>	
+		
+		<ImpulseEngineSpeed max="4" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_TargetTo" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_KlingonWarbird02 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_KlingonWarbird02"
+		unitDataGUITextureName="UnitDataGUIBackground_KlingonWarbird01" 
+		UnitDisplayNameIndex="3031" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="7" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="2"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Shield_Front01" >
+			<hp max="30" />
+			<energy max="10"/>		
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1" />	
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1" />		
+		</Component>
+		
+		<ImpulseEngineSpeed max="2" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-6" max="6" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />	
+		<AddComponent name="AI_FireToTarget" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_KlingonWarbird02-2 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_KlingonWarbird02-2"
+		unitDataGUITextureName="UnitDataGUIBackground_KlingonWarbird01" 
+		UnitDisplayNameIndex="3031" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="7" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="3"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Shield_Front01" >
+			<hp max="40" />
+			<energy max="10"/> 
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1" />
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>			
+			<effect max="1" />
+		</Component>	
+		
+		<ImpulseEngineSpeed max="2" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-6" max="6" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget" />
+	</Unit>
+	
+	<!-- UnitDataTemplate_KlingonWarbird02-3 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_KlingonWarbird02-3"
+		unitDataGUITextureName="UnitDataGUIBackground_KlingonWarbird01" 
+		UnitDisplayNameIndex="3031" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="7" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="3"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Shield_Front01" >
+			<hp max="50" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1" />
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1" />	
+		</Component>	
+		
+		<ImpulseEngineSpeed max="2" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-6" max="6" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget" />
+	</Unit>			
+	
+	<!-- UnitDataTemplate_KlingonWarbird06 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_KlingonWarbird06"
+		unitDataGUITextureName="UnitDataGUIBackground_KlingonWarbird01" 
+		UnitDisplayNameIndex="3031" >
+		<Component name= "UnitIntagraty" >
+			<hp max="100" />
+		</Component>
+
+		<Component name= "Weapon_DisruptorCannon_Front01" >
+			<hp max="10" />
+			<energy max="10" init="0" />
+			<generation max="0.2"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Left01" >
+			<hp max="10" />
+			<energy max="10" init="0" />
+			<generation max="0.1"/>
+			<effect max="7"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Right01" >
+			<hp max="10" />
+			<energy max="10" init="0" />
+			<generation max="0.1"/>
+			<effect max="7"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>		
+		
+		<Component name= "Shield_Front01" >
+			<hp max="30" />			
+			<energy max="10" init="0"/>
+			<generation max="0.2"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="5" />
+			<energy max="10" init="0"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="5" />
+			<energy max="10" init="0"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="6" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		
+	</Unit>	
+	
+	<!-- UnitDataTemplate_KlingonBirdofPrey06 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_KlingonBirdofPrey06"
+		unitDataGUITextureName="UnitDataGUIBackground_KlingonBirdofPrey01" 
+		UnitDisplayNameIndex="3032" >
+		<Component name= "UnitIntagraty" >
+			<hp max="60" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="10" init="0"/>			
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorCannon_Right02" >
+			<hp max="10" />
+			<energy max="10" init="0"/>	
+			<generation max="0.1"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorCannon_Left02" >
+			<hp max="10" />
+			<energy max="10" init="0"/>	
+			<generation max="0.1"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Shield_Front01" >
+			<hp max="30" />
+			<energy max="10" init="0"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Left03" >
+			<hp max="5" />
+			<energy max="10" init="0"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right03" >
+			<hp max="5" />
+			<energy max="10" init="0"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<ImpulseEngineSpeed max="8" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-120" max="120" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+	</Unit>		
+	
+
+
+	<!-- UnitDataTemplate_KlingonBirdofPrey08 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_KlingonBirdofPrey08"
+		unitDataGUITextureName="UnitDataGUIBackground_KlingonBirdofPrey01" 
+		UnitDisplayNameIndex="3032" >
+		<Component name= "UnitIntagraty" >
+			<hp max="6" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Left03" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right03" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<AuxiliaryEnergy max="20" init="0" />		
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-120" max="120" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>	
+	
+	
+
+	
+	
+	
+	
+	<!-- UnitDataTemplate_RomulanValdore08 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_RomulanValdore08"
+		unitDataGUITextureName="UnitDataGUIBackground_RomulanValdore01" 
+		UnitDisplayNameIndex="3041" >
+		<Component name= "UnitIntagraty" >
+			<hp max="14" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear04" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear05" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<AuxiliaryEnergy max="20" init="0" />		
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>		
+	
+	<!-- UnitDataTemplate_RomulanWarbird01 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_RomulanWarbird01"
+		unitDataGUITextureName="UnitDataGUIBackground_RomulanWarbird01" 
+		UnitDisplayNameIndex="3042" >
+		
+		<Component name="UnitIntagraty" >
+			<hp max="60" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorCannon_Right01" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="1"/>
+			<reloadEnergy max="1"/>
+			<reloadGeneration max="0.3"/>
+		</Component>
+		<Component name= "Weapon_DisruptorCannon_Left01" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="1"/>
+			<reloadEnergy max="1"/>
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		
+		<Component name= "Shield_Front02" >
+			<hp max="90" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "Shield_Rear01" >
+			<hp max="9" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Left01" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Right01" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="8" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget5" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_RomulanWarbird06 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_RomulanWarbird06"
+		unitDataGUITextureName="UnitDataGUIBackground_RomulanWarbird01" 
+		UnitDisplayNameIndex="3042" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="60" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorCannon_Right01" >
+			<hp max="10" />
+			<energy max="10" init="0" />
+			<generation max="0.3"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		<Component name= "Weapon_DisruptorCannon_Left01" >
+			<hp max="10" />
+			<energy max="10" init="0" />
+			<generation max="0.3"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		
+		<Component name= "Shield_Front02" >
+			<hp max="120" />
+			<energy max="10" init="0"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Rear01" >
+			<hp max="9" />
+			<energy max="10" init="0"/>
+			<generation max="0.1"/>
+			<effect max="1"/>			
+		</Component>
+		
+		<Component name= "ImpulseEngine_Left01" >
+			<hp max="5" />
+			<energy max="10" init="0"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Right01" >
+			<hp max="5" />
+			<energy max="10" init="0"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="6" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		
+	</Unit>	
+	
+	
+	
+	
+	
+
+
+	
+	<!-- UnitDataTemplate_CylonBaseShip09 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_CylonBaseShip09"
+		unitDataGUITextureName="UnitDataGUIBackground_CylonBaseship01" 
+		UnitDisplayNameIndex="3081" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="600" />
+		</Component>
+	
+		<ImpulseEngineSpeed max="0" />
+		<ImpulseEngineRatio max="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-0" max="0" init="0" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_ColonyBattlestarGalactica09 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_ColonyBattlestarGalactica09"
+		unitDataGUITextureName="UnitDataGUIBackground_ColonyBattlestar01" 
+		UnitDisplayNameIndex="3082" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="100" />
+		</Component>
+		
+		<Component name= "Sensor01" >
+			<hp max="30" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		<Component name= "Weapon_BattleStarCannon_Front01" >
+			<hp max="35" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" init="0"/>
+			<reloadGeneration max="0.2"/>
+		</Component>
+		
+		<Component name= "Weapon_BattleStarCannon_Rear01" >
+			<hp max="35" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" init="0"/>
+			<reloadGeneration max="0.2"/>
+		</Component>		
+	
+		<Component name= "ImpulseEngine_Rear07" >
+			<hp max="180" init="0" />
+			<energy max="10"/>
+			<generation max="1"/>			
+			<effect max="1"/>
+		</Component>
+	
+		<Component name= "ImpulseEngine_Rear08" >
+			<hp max="180" init="0" />
+			<energy max="10"/>
+			<generation max="1"/>			
+			<effect max="1"/>
+		</Component>		
+		
+		<ImpulseEngineSpeed max="0" />
+		<ImpulseEngineRatio max="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-0" max="0" init="0" />
+	</Unit>
+	
+	<!-- UnitDataTemplate_ColonyBattlestarPegasus09 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_ColonyBattlestarPegasus09"
+		unitDataGUITextureName="UnitDataGUIBackground_ColonyBattlestar01" 
+		UnitDisplayNameIndex="3083" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="100" />
+		</Component>
+	
+		<Component name= "Sensor01" >
+			<hp max="30" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		<Component name= "Weapon_BattleStarCannon_Front01" >
+			<hp max="35" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" init="0"/>
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Weapon_BattleStarCannon_Rear01" >
+			<hp max="35" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" init="0"/>
+			<reloadGeneration max="0.3"/>
+		</Component>		
+	
+		<Component name= "ImpulseEngine_Rear07" >
+			<hp max="180" />
+			<energy max="10"/>
+			<generation max="1"/>			
+			<effect max="1"/>
+		</Component>
+	
+		<Component name= "ImpulseEngine_Rear08" >
+			<hp max="180" />
+			<energy max="10"/>
+			<generation max="1"/>			
+			<effect max="1"/>
+		</Component>		
+		
+		<ImpulseEngineSpeed max="0" />
+		<ImpulseEngineRatio max="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-0" max="0" init="0" />
+		<AddComponent name="AI_FireToClosestEnemy" />
+	</Unit>			
+	
+	<!-- UnitDataTemplate_ColonyViper09 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_ColonyViper09"
+		unitDataGUITextureName="UnitDataGUIBackground_ColonyViper01" 
+		UnitDisplayNameIndex="3084" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="30" />
+		</Component>
+		
+		<Component name= "Sensor01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="60"/>
+		</Component>
+		
+		<Component name= "Weapon_CylonCannon_Left01" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="5"/>
+			<reloadEnergy max="1"/>
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Weapon_CylonCannon_Right01" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="5"/>
+			<reloadEnergy max="1"/>
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear06" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="9" />
+		<ImpulseEngineRatio max="1" init="0"/>
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_ColonyViper09 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_ColonyViper09_1"
+		unitDataGUITextureName="UnitDataGUIBackground_ColonyViper01" 
+		UnitDisplayNameIndex="3084" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="30" />
+		</Component>
+		
+		<Component name= "Sensor01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="60"/>
+		</Component>
+		
+		<Component name= "Weapon_CylonCannon_Left01" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="5"/>
+			<reloadEnergy max="1"/>
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Weapon_CylonCannon_Right01" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="5"/>
+			<reloadEnergy max="1"/>
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear06" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="9" />
+		<ImpulseEngineRatio max="1" init="0"/>
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToClosestEnemy" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_CylonRaider09 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_CylonRaider09"
+		unitDataGUITextureName="UnitDataGUIBackground_CylonRaider01" 
+		UnitDisplayNameIndex="3085" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="6" />
+		</Component>
+		
+		<Component name= "Weapon_CylonCannon_Left01" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="2"/>
+			<reloadEnergy max="1"/>
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Weapon_CylonCannon_Right01" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.05"/>
+			<effect max="2"/>
+			<reloadEnergy max="1"/>
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear06" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="12" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget5" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_CylonMissile09 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_CylonMissile09"
+		unitDataGUITextureName="UnitDataGUIBackground_Missile" 
+		UnitDisplayNameIndex="3086" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="3" />
+		</Component>		
+		
+		<ImpulseEngineSpeed max="5" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />
+		<AddComponent name="AI_CollideTo" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_FederationDefiant_C01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_FederationDefiant_C01"
+		unitDataGUITextureName="UnitDataGUIBackground_FederationDefiant01" 
+		UnitDisplayNameIndex="3022" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="30" />
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+
+		<Component name= "Weapon_PhotonTorpedo01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Left06" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right06" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<AuxiliaryEnergy max="20" init="0" />		
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-120" max="120" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_KlingonBirdofPrey_C01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_KlingonBirdofPrey_C01"
+		unitDataGUITextureName="UnitDataGUIBackground_KlingonBirdofPrey01" 
+		UnitDisplayNameIndex="3032" >
+		<Component name= "UnitIntagraty" >
+			<hp max="25" />
+		</Component>
+
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorCannon_Right02" >
+			<hp max="10" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorCannon_Left02" >
+			<hp max="10" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Shield_Front01" >
+			<hp max="20" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Left03" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right03" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<AuxiliaryEnergy max="20" init="0" />
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-120" max="120" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>		
+	
+	<!-- UnitDataTemplate_KlingonWarbird_C01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_KlingonWarbird_C01"
+		unitDataGUITextureName="UnitDataGUIBackground_KlingonWarbird01" 
+		UnitDisplayNameIndex="3031" >
+		<Component name= "UnitIntagraty" >
+			<hp max="50" />
+		</Component>
+
+		<Component name= "Weapon_DisruptorCannon_Front01" >
+			<hp max="10" />
+			<energy max="10" std="5"/>
+			<generation max="0.2"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Left01" >
+			<hp max="10" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="7"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Right01" >
+			<hp max="10" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="7"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>		
+		
+		<Component name= "Shield_Front01" >
+			<hp max="30" />			
+			<energy max="10" std="5"/>
+			<generation max="0.2"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<AuxiliaryEnergy max="20" init="0" />
+		<ImpulseEngineSpeed max="6" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_RomulanWarbird_C01 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_RomulanWarbird_C01"
+		unitDataGUITextureName="UnitDataGUIBackground_RomulanWarbird01" 
+		UnitDisplayNameIndex="3042" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="50" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorCannon_Right01" >
+			<hp max="10" />
+			<energy max="10" std="5"/>
+			<generation max="0.3"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		<Component name= "Weapon_DisruptorCannon_Left01" >
+			<hp max="10" />
+			<energy max="10" std="5"/>
+			<generation max="0.3"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		<Component name= "Weapon_DisruptorTorpedo_Front04" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>		
+		
+		<Component name= "Shield_Front02" >
+			<hp max="20" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Rear01" >
+			<hp max="9" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="1"/>			
+		</Component>
+		
+		<Component name= "ImpulseEngine_Left01" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Right01" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<AuxiliaryEnergy max="20" init="0" />
+		<ImpulseEngineSpeed max="6" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>		
+	
+	<!-- UnitDataTemplate_RomulanValdore_C01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_RomulanValdore_C01"
+		unitDataGUITextureName="UnitDataGUIBackground_RomulanValdore01" 
+		UnitDisplayNameIndex="3041" >
+		<Component name= "UnitIntagraty" >
+			<hp max="80" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+
+		<Component name= "Weapon_DisruptorCannon_Left02" >
+			<hp max="10" />
+			<energy max="10"  />
+			<generation max="0.3"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		<Component name= "Weapon_DisruptorCannon_Right02" >
+			<hp max="10" />
+			<energy max="10"  />
+			<generation max="0.3"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>		
+		
+		<Component name= "ImpulseEngine_Rear04" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear05" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<AuxiliaryEnergy max="20" init="0" />		
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_FerengiDKora_C01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_FerengiDKora_C01"
+		unitDataGUITextureName="UnitDataGUIBackground_FerengiD'Kora01" 
+		UnitDisplayNameIndex="3071" >
+		<Component name= "UnitIntagraty" >
+			<hp max="30" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Left06" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right06" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "Shield_Whole01" >
+			<hp max="30" />			
+			<energy max="10" />
+			<generation max="1.0"/>
+			<effect max="1"/>
+		</Component>
+		
+		<AuxiliaryEnergy max="20" init="0" />		
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>			
+
+	<!-- UnitDataTemplate_CardassianGalor_C01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_CardassianGalor_C01"
+		unitDataGUITextureName="UnitDataGUIBackground_CardassianGalor01" 
+		UnitDisplayNameIndex="3062" >
+		<Component name= "UnitIntagraty" >
+			<hp max="100" />
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorTorpedo_Left02" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorTorpedo_Right02" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Left05" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right05" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<AuxiliaryEnergy max="20" init="0" />		
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>	
+
+	<!-- UnitDataTemplate_CardassianDreadNought_C01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_CardassianDreadNought_C01"
+		unitDataGUITextureName="UnitDataGUIBackground_CardassianDreadNought" 
+		UnitDisplayNameIndex="3061" >
+		<Component name= "UnitIntagraty" >
+			<hp max="11" />
+		</Component>
+		
+		<ImpulseEngineSpeed max="5" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />
+		<AddComponent name="AI_CollideTo" />
+	</Unit>	
+	
+	
+	<!-- UnitDataTemplate_RomulanNarada_C01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_RomulanNarada_C01"
+		unitDataGUITextureName="UnitDataGUIBackground_RomulanNarada01" 
+		UnitDisplayNameIndex="3044" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="620" />
+		</Component>
+	
+		<Component name= "Sensor01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		
+		<Component name= "Weapon_NaradaTorpedo01" >
+			<hp max="50" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		
+		<Component name= "Weapon_NaradaTorpedo02" >
+			<hp max="50" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>		
+		
+		<Component name= "Weapon_NaradaTorpedo03" >
+			<hp max="50" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>	
+
+		<Component name= "Weapon_NaradaTorpedo04" >
+			<hp max="50" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>	
+
+		<Component name= "Weapon_NaradaTorpedo05" >
+			<hp max="50" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>	
+
+		<Component name= "Weapon_NaradaTorpedo06" >
+			<hp max="50" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>			
+
+		
+		<Component name= "ImpulseEngine_Rear11" >
+			<hp max="100" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear12" >
+			<hp max="100" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="6" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_MoveRoutes2" />
+	</Unit>		
+	
+	<!-- UnitDataTemplate_RomulanScimitar_C01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_RomulanScimitar_C01"
+		unitDataGUITextureName="UnitDataGUIBackground_RomulanScimitar01" 
+		UnitDisplayNameIndex="3043" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="120" />
+		</Component>
+	
+		<Component name= "Sensor01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+
+		<Component name= "Weapon_DisruptorArray_Left01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Left02" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>		
+
+		<Component name= "Weapon_DisruptorArray_Right01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Right02" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorCannon_Front02" >
+			<hp max="10" />
+			<energy max="10"  />
+			<generation max="0.3"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		<Component name= "Weapon_DisruptorCannon_Front03" >
+			<hp max="10" />
+			<energy max="10"  />
+			<generation max="0.3"/>
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>		
+		
+		<Component name= "Weapon_DisruptorTorpedo_Front02" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorTorpedo_Front03" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>		
+		
+		<Component name= "Shield_Front01" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Rear01" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Left01" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Right01" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		
+		<Component name= "ImpulseEngine_Rear09" >
+			<hp max="10" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear10" >
+			<hp max="10" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="6" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_MoveRoutes2" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_BorgCube_C01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_BorgCube_C01"
+		unitDataGUITextureName="UnitDataGUIBackground_BorgCube01" 
+		UnitDisplayNameIndex="3091" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="220" />
+		</Component>
+	
+		<Component name= "Sensor01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		<Component name= "Weapon_DisruptorArray_Front02" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		<Component name= "Weapon_DisruptorArray_Front03" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		<Component name= "Weapon_DisruptorArray_Rear02" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		<Component name= "Weapon_DisruptorArray_Rear03" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>		
+			
+		
+		<Component name= "Weapon_DisruptorTorpedo_Front01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		<Component name= "Weapon_DisruptorTorpedo_Rear01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		<Component name= "Weapon_DisruptorTorpedo_Left01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		<Component name= "Weapon_DisruptorTorpedo_Right01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>		
+
+		
+		<Component name= "Shield_Front03" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Front04" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Rear03" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Rear04" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Left03" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Left04" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>		
+		<Component name= "Shield_Right03" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Right04" >
+			<hp max="120" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+
+		
+		<Component name= "ImpulseEngine_Front01" >
+			<hp max="10" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "ImpulseEngine_Rear01" >
+			<hp max="10" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "ImpulseEngine_Left01" >
+			<hp max="10" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "ImpulseEngine_Right01" >
+			<hp max="10" />
+			<energy max="10" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="6" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_MoveRoutes2" />
+	</Unit>			
+	
+	
+	<!-- UnitDataTemplate_NealsonCargoship -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_NealsonCargoship"
+		unitDataGUITextureName="UnitDataGUIBackground_NealsonCargoship01" 
+		UnitDisplayNameIndex="3021" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="30" init="3" />
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear01" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1" />
+		</Component>
+		
+		<ImpulseEngineSpeed max="1" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-6" max="6" init="0" />		
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_MoveToDestination" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_NealsonCargoship04 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_NealsonCargoship04"
+		unitDataGUITextureName="UnitDataGUIBackground_NealsonCargoship01" 
+		UnitDisplayNameIndex="3021" >
+		<Component name= "UnitIntagraty" >
+			<hp max="30" />
+		</Component>
+	
+		<Component name= "ImpulseEngine_Rear01" >
+			<hp max="5" init="1" />
+			<energy max="10"/>
+			<generation max="0.1"/>	
+			<effect max="1" />		
+		</Component>
+		
+		<ImpulseEngineSpeed min="0" max="8" />
+		<ImpulseEngineRatio min="0" max="0" />
+		<ImpulseEngineAngularSpeed min="-6" max="6" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+	</Unit>		
+	
+	<!-- UnitDataTemplate_NealsonCargoship05 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_NealsonCargoship05"
+		unitDataGUITextureName="UnitDataGUIBackground_NealsonCargoship01" 
+		UnitDisplayNameIndex="3021" >
+		<Component name= "UnitIntagraty" >
+			<hp max="15" />
+		</Component>
+
+		<Component name= "Shield_Front01" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.12"/>
+			<effect max="1" />
+		</Component>
+
+		<Component name= "Shield_Rear01" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.12"/>
+			<effect max="1" />
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear01" >
+			<hp max="5" />
+			<energy max="10"/>
+			<generation max="0.12"/>
+			<effect max="1" />
+		</Component>
+		
+		<ImpulseEngineSpeed max="2" />
+		<ImpulseEngineRatio max="1" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_MoveRoutes" />
+	</Unit>		
+	
+	<!-- UnitDataTemplate_NealsonCargoship06 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_NealsonCargoship06"
+		unitDataGUITextureName="UnitDataGUIBackground_NealsonCargoship01" 
+		UnitDisplayNameIndex="3021" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="30" />
+		</Component>
+	
+		<Component name= "ImpulseEngine_Rear01" >
+			<hp max="5" init="0"/>
+			<energy max="1" init="0" />
+			<generation max="0.1"/>
+			<effect max="1" />
+		</Component>
+		
+		<ImpulseEngineSpeed max="2" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+	</Unit>		
+	
+	<!-- UnitDataTemplate_FederationDefiant08 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_FederationDefiant08"
+		unitDataGUITextureName="UnitDataGUIBackground_FederationDefiant01" 
+		UnitDisplayNameIndex="3022" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="8" />
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front01" >
+			<hp max="10" />
+			<energy max="20" std="10"/>
+			<generation max="0.1"/>
+			<effect max="5"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Left06" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right06" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+
+		<AuxiliaryEnergy max="20" init="0" />		
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-120" max="120" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<AddComponent name="AI_FireToTarget6" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_FederationShuttle06 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_FederationShuttle06"
+		unitDataGUITextureName="UnitDataGUIBackground_FederationShuttle01" 
+		UnitDisplayNameIndex="3023" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="30" />
+		</Component>
+	
+		<Component name= "ImpulseEngine_Left02" >
+			<hp max="5" init="0"/>
+			<energy max="1" init="0" />
+			<generation max="0.1"/>
+			<effect max="1" />
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right02" >
+			<hp max="5" init="0"/>
+			<energy max="1" init="0" />
+			<generation max="0.1" />
+			<effect max="1" />
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front04" >
+			<hp max="1" init="0"/>
+			<energy max="1" init="0"/>
+			<generation max="0.1" init="0" />
+			<effect max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>		
+		
+		<ImpulseEngineSpeed max="2" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+	</Unit>		
+	
+	<!-- UnitDataTemplate_ConsolationHospitalship06 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_ConsolationHospitalship06"
+		unitDataGUITextureName="UnitDataGUIBackground_ConsolationHospitalship01" 
+		UnitDisplayNameIndex="3024" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="30" />
+		</Component>
+		
+		<Component name= "ImpulseEngine_Left02" >
+			<hp max="5" init="0"/>
+			<energy max="1" init="0" />
+			<generation max="0.1" />
+			<effect max="1" />
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right02" >
+			<hp max="5" init="0"/>
+			<energy max="1" init="0" />
+			<generation max="0.1" />
+			<effect max="1" />
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front01" >
+			<hp max="1" />
+			<energy max="1" init="0" />
+			<generation max="0"/>
+			<effect min="0" max="1"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>		
+		
+		<ImpulseEngineSpeed max="2" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+	</Unit>			
+	
+
+	
+	<!-- UnitDataTemplate_SheetStarbase01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_SheetStarbase01"
+		unitDataGUITextureName="UnitDataGUIBackground_SheetStarbase01" 
+		UnitDisplayNameIndex="3025" >
+		<Component name= "UnitIntagraty" >
+			<hp max="700" />
+		</Component>
+	</Unit>
+	
+	<!-- UnitDataTemplate_FleetStarbase08 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_FleetStarbase08"
+		unitDataGUITextureName="UnitDataGUIBackground_SheetStarbase01" 
+		UnitDisplayNameIndex="3025" >
+		<Component name= "UnitIntagraty" >
+			<hp max="370" />
+		</Component>
+	</Unit>	
+	
+	<!-- UnitDataTemplate_Outpost01 -->	
+	<Unit unitDataTemplateName="UnitDataTemplate_Outpost01"
+		unitDataGUITextureName="UnitDataGUIBackground_Outpost01" 
+		UnitDisplayNameIndex="3026" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="30" />
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front02" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="3.5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.2"/>
+		</Component>		
+		
+		<Component name= "Weapon_Phaser_Front03" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="3.5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.2"/>
+		</Component>
+		
+		<Component name= "Shield_Front02" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>		
+		<Component name= "Shield_Rear02" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Right02" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Left02" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<ImpulseEngineSpeed max="0" />
+		<ImpulseEngineRatio max="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />				
+		<AddComponent name="AI_FireToClosestEnemy" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_Outpost04-2 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_Outpost04-2"
+		unitDataGUITextureName="UnitDataGUIBackground_Outpost01" 
+		UnitDisplayNameIndex="3026" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="30" init="20" />
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front02" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="3.5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.2"/>
+		</Component>	
+		
+		<Component name= "Weapon_Phaser_Front03" >
+			<hp max="10" />
+			<energy max="10"/>
+			<generation max="0.1"/>
+			<effect max="3.5"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.2"/>
+		</Component>
+		
+		
+		<ImpulseEngineSpeed max="0" />
+		<ImpulseEngineRatio max="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />				
+		<AddComponent name="AI_FireToClosestEnemy" />
+	</Unit>		
+	
+
+	
+	<!-- UnitDataTemplate_MainCharacter_Enterprise01 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise01"
+		unitDataGUITextureName="UnitDataGUIBackground_MainCharacter_Enterprise02" 
+		UnitDisplayNameIndex="3011" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="10" />
+		</Component>
+		
+		<Component name= "Sensor01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front01" >
+			<hp  max="3" />
+			<energy  max="10" std="5" />
+			<generation  max="0.1"/>
+			<effect  max="10"/>
+			<reloadEnergy max="1" init="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		<Component name= "Weapon_Phaser_Rear01" >
+			<hp max="3" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" init="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>		
+		<Component name= "Weapon_PhotonTorpedo01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+			
+		<Component name= "Shield_Front01" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>	
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Rear01" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>			
+			<effect max="1" />
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>			
+			<effect max="1" />
+		</Component>	
+
+		<AuxiliaryEnergy max="50" init="0" />
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-60" max="60" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		
+	</Unit>	
+	
+	<!-- UnitDataTemplate_MainCharacter_Enterprise03 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise03"
+		unitDataGUITextureName="UnitDataGUIBackground_MainCharacter_Enterprise02" 
+		UnitDisplayNameIndex="3011" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="10" />
+		</Component>
+		
+		<Component name= "Sensor01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front01" >
+			<hp max="3" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1"/>
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Rear01" >
+			<hp max="3" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>	
+		
+		<Component name= "Weapon_PhotonTorpedo01" >
+			<hp  max="10"  />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		<Component name= "Weapon_TrackorBeam01" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>	
+			<effect max="80"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>	
+		
+		<Component name= "Shield_Front01" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>	
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Rear01" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>			
+			<effect max="1" />
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>	
+			<effect max="1" />
+		</Component>		
+
+		<AuxiliaryEnergy max="50" init="0" />
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-120" max="120" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+		
+	</Unit>	
+	
+	<!-- UnitDataTemplate_MainCharacter_Enterprise06 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise06"
+		unitDataGUITextureName="UnitDataGUIBackground_MainCharacter_Enterprise01" 
+		UnitDisplayNameIndex="3011" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="30" />
+		</Component>
+		
+		<Component name= "Sensor01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front05" >
+			<hp max="3" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front06" >
+			<hp max="3" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Rear01" >
+			<hp max="3" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>		
+		<Component name= "Weapon_PhotonTorpedo01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		<Component name= "Weapon_TrackorBeam01" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>	
+			<effect max="80"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Shield_Front01" >
+			<hp max="30" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Rear01" >
+			<hp max="30" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="5" />
+			<energy max="10" std="5" />		
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>	
+			<effect max="1"/>
+		</Component>		
+
+		<AuxiliaryEnergy max="50" init="0" />
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-180" max="180" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_MainCharacter_Enterprise08 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise08"
+		unitDataGUITextureName="UnitDataGUIBackground_MainCharacter_Enterprise01" 
+		UnitDisplayNameIndex="3011" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="30" />
+		</Component>
+		
+		<Component name= "Sensor01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front05" >
+			<hp max="3" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front06" >
+			<hp max="3" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Rear01" >
+			<hp max="3" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>		
+		<Component name= "Weapon_PhotonTorpedo01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		<Component name= "Weapon_TrackorBeam01" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>	
+			<effect max="80"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Shield_Front01" >
+			<hp max="30" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Rear01" >
+			<hp max="30" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="5" />
+			<energy max="10" std="5" />		
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>	
+			<effect max="1"/>
+		</Component>		
+
+		<AuxiliaryEnergy max="50" init="10" />
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-180" max="180" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+	</Unit>		
+	
+	<!-- UnitDataTemplate_MainCharacter_Enterprise09 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise09"
+		unitDataGUITextureName="UnitDataGUIBackground_MainCharacter_Enterprise01" 
+		UnitDisplayNameIndex="3011" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="40" />
+		</Component>
+		
+		<Component name= "Sensor01" >
+			<hp max="20" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front05" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front06" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Rear01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.1"/>
+		</Component>		
+		<Component name= "Weapon_PhotonTorpedo01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		<Component name= "Weapon_TrackorBeam01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>	
+			<effect max="80"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Shield_Front01" >
+			<hp max="30" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Rear01" >
+			<hp max="30" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="10" />
+			<energy max="10" std="5" />		
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>	
+			<effect max="1"/>
+		</Component>		
+
+		<AuxiliaryEnergy max="50" init="20" />
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-180" max="180" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+	</Unit>	
+	
+	<!-- UnitDataTemplate_MainCharacter_Enterprise09_1 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise09_1"
+		unitDataGUITextureName="UnitDataGUIBackground_MainCharacter_Enterprise01" 
+		UnitDisplayNameIndex="3011" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="40" init="20" />
+		</Component>
+		
+		<Component name= "Sensor01" >
+			<hp max="20" init="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front05" >
+			<hp max="10" init="5" />
+			<energy max="10" std="5" init="0"/>
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front06" >
+			<hp max="10" init="5" />
+			<energy max="10" std="5" init="0"/>
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Rear01" >
+			<hp max="10" init="5" />
+			<energy max="10" std="5" init="0"/>
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.1"/>
+		</Component>		
+		<Component name= "Weapon_PhotonTorpedo01" >
+			<hp max="10" init="5"/>
+			<energy max="10" std="5" init="0"/>
+			<generation max="0.1"/>
+			<effect max="20"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.05"/>
+		</Component>
+		<Component name= "Weapon_TrackorBeam01" >
+			<hp max="10" />
+			<energy max="10" std="5" init="0"/>
+			<generation max="0.1"/>	
+			<effect max="80"/>
+			<reloadEnergy max="1" init="0" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Shield_Front01" >
+			<hp max="30" init="15" />
+			<energy max="10" std="5" init="0"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		<Component name= "Shield_Rear01" >
+			<hp max="30" init="15"/>
+			<energy max="10" std="5" init="0"/>
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+
+		<Component name= "ImpulseEngine_Rear02" >
+			<hp max="10" init="15"/>
+			<energy max="10" std="5" init="0"/>		
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Rear03" >
+			<hp max="10" init="0"/>
+			<energy max="10" std="5" init="0" />
+			<generation max="0.1"/>	
+			<effect max="1"/>
+		</Component>		
+
+		<AuxiliaryEnergy max="70" init="65" />
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-180" max="180" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+	</Unit>		
+	
+	<!-- UnitDataTemplate_MainCharacter_DeltaFlyer07 -->
+	<Unit unitDataTemplateName="UnitDataTemplate_MainCharacter_DeltaFlyer07"
+		unitDataGUITextureName="UnitDataGUIBackground_MainCharacter_DeltaFlyer" 
+		UnitDisplayNameIndex="3012" >
+		
+		<Component name= "UnitIntagraty" >
+			<hp max="4" />
+		</Component>
+		
+		<Component name= "Sensor01" >
+			<hp max="10" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="120"/>
+		</Component>
+		
+		<Component name= "Weapon_TrackorBeam01" >
+			<hp max="5" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>	
+			<effect max="80"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.3"/>
+		</Component>
+		
+		<Component name= "Weapon_Phaser_Front04" >
+			<hp max="3" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="10"/>
+			<reloadEnergy max="1" />
+			<reloadGeneration max="0.09"/>
+		</Component>				
+		
+		<Component name= "Shield_Whole02" >
+			<hp max="30" />
+			<energy max="10" std="5" />
+			<generation max="0.1"/>
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Left04" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>		
+			<effect max="1"/>
+		</Component>
+		
+		<Component name= "ImpulseEngine_Right04" >
+			<hp max="5" />
+			<energy max="10" std="5"/>
+			<generation max="0.1"/>			
+			<effect max="1"/>
+		</Component>
+		
+		<AuxiliaryEnergy max="20" init="0" />
+		<ImpulseEngineSpeed max="16" std="8" />
+		<ImpulseEngineRatio max="1" init="0" />
+		<ImpulseEngineAngularSpeed min="-180" max="180" init="0" />
+		<ImpulseEngineAngularRatio min="-1" max="1" init="0" />
+	</Unit>			
+</UnitTemplateTable>

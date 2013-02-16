@@ -1,0 +1,56 @@
+﻿[分享] 小林丸指揮官 v0.2.0 釋出
+
+
+各位好 
+首先是　KobayashiMaruCommander 小林丸指揮官 v0.2.0 釋出了。
+希望各位大德先賢可以幫忙撥冗測試，
+尤其有任何不能下載，不能執行，都麻煩通知我（ptt信件，facebook社團）。
+
+
+說明
+
+什麼是一個真正的ST遊戲，這是我在思考的問題。
+我以前在玩Bridge Commander的時候，被我的一位朋友嫌棄說這遊戲真無聊。
+因為他不是ST迷，當然也不懂這種粉絲向的遊戲好玩在哪裡。
+然而，我並不希望我的這個版本最後也變成只是個粉絲向，ST迷自High的遊戲。
+我想找到在ST的背景下，有什麼元素可以讓一個星際射擊遊戲變得好玩。
+也就是說，即便拿掉ST的皮，他依然是好玩的遊戲。
+
+要做的事情很多，為了加快進度，至少完成一個基本版。希望能募集有閑的朋友。意者請來信聯絡。
+
+畫面截圖(screenshot)
+short link: http://tinyurl.com/bf9hjdp
+
+下載方式(download)
+
+# 壓縮檔(compressed file): 
+short link: http://tinyurl.com/bxhgt7t
+# 完整釋出說明(release note): 
+short link: http://tinyurl.com/as3bloc
+
+
+本版本開發工時: 
+自 20121006( star date : 90368.48 ) 至 20121104( star date : 90447.83 ) 共 82 小時
+
+主要更新內容(main update)
+
+# 新增 單位轉角速度的參數。
+# 新增 防護罩的部件，防護罩的修復，及防護罩的受損下線。
+# 新增 單位資料的GUI，玩家與選擇單位，基本底圖及部件。武器的GUI部件，與防護罩不同，有填充能源條。
+# 新增 測試關卡的勝利條件
+# 新增 光炮部件，不同部位的光炮，參數，及射擊判定(包含發射角度），光炮特效物件的細部調整。
+# 新增 AI敵人會使用光砲。
+# 新增 光雷武器
+# 新增 關卡2
+# 修改 教學與說明介面為英文。
+
+聯絡方式(contact)
+
+facebook 社團:  http://www.facebook.com/groups/151280021681743/
+
+作者背景(author)
+
+NDark, 
+a game designer, a senior software engineer, a zigzag puzzle player, a fencing learner, and a trekker。
+曾經擔任工研院的副工程師，鈊象科技的高級工程師，現擔任一間新創科技公司的資深工程師。專長是遊戲設計，電腦圖學，軟體設計，以及專案管理。曾經參與製作的遊戲專案有"無敵風火輪(Funny Table, http://ft.igsgame.com/ )"，"機甲英雄( Hero of Robots, http://herorobots.igsgame.com/ )"與"霸三國志大戰( Sangokushi Taisen for Chinese series, http://sanguo.igsgame.com/ )"。
+

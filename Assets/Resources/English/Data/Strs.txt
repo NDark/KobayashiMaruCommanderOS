@@ -1,0 +1,279 @@
+
+|1001|Kobayashi Maru Commander|
+|1002|Press To Enter|
+|1003|Kobayashi Maru Commander is a fan-based none-profit prototype|
+|1004|game project. I developped it from Sep. 2012 to Feb. 2013.|
+|1005|Enjoy and feel free to comment, and report bugs.|
+
+
+|1011|Oops...Captain!|
+|1012|Main objective is unable to be reached.|
+|1013|Mission failed!|
+
+|1015|Simulation completed!|
+
+|1021|Battle Score|
+|1022|Congradulation! Captain!|
+|1023|Main objective is accomplished. Simulation completed!|
+|1024|Number of destroy unit is %d .|
+|1025|Damage suffer is %d .|
+|1026|Elapsed time is %d .|
+
+|1031|You have been destroyed by %s.|
+|1032|You have destroyed the %s.|
+|1033|You damage %d to %s.|
+|1034|%s damage %d to you.|
+
+|1041|Weapon is offline.|
+|1042|Weapon is not ready.|
+|1043|Target is out of range.|
+
+|1101|Nebula has decreased the power of the sensor.|
+|1102|Senser power has resumed.|
+
+
+
+|1201|We are pulled inside.|
+
+|1202|Cargo ship Nelson has reached the base.|
+|1203|Federation shuttle has reached the base.|
+|1204|Hospital ship Consolation has reached the base.|
+
+|1301|TO MISSION|
+|1302|Level 1 Tutorial|
+|1303|Level 2 Klingon's Fury|
+|1304|Level 3 Escort the Vessel|
+|1305|Level 4 Through the Nebula|
+|1306|Level 5 Protect the Trade Line|
+|1307|Level 6 Ambush In Trash|
+|1308|Level 7 Warhead|
+|1309|Level 8 Allies or Foes|
+|1310|Level 9 Singularity|
+
+|1321|Challenge Level 1|
+
+|1401|Acknowledge for the server.|
+|1402|Acknowledge for the ships.|
+
+|1701|Acknowledgement|
+|1702|The idea of Level 3: Escore the Vessel|
+|1703|is inspired by the friend of mine - Byin Chen.|
+|1704|I give the level to him.|
+|1705|If players have any thougt about the game,|
+|1706|I encourage to leave comment at facebook group.|
+
+
+|1801|Recruitment|
+|1802|We need developers!!!|
+|1803|1. Media/resource finding agents: Because the textures and audios using now|
+|1804|   are taken through internet, I wish we can find proper media/resources.|
+|1805|2. 2D artists: GUI are made by me. And in order to fit the style of Star Trek,|
+|1806|   2D artist is needed.|
+|1807|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　NDark|
+
+|1811|Open Source Project|
+|1812|Kobayahi Maru Commander has been released as open source project!!!|
+|1813|Join us to make it improved by clicking below github icon,|
+|1814|or by enter link : https://github.com/NDark/KobayashiMaruCommanderOS |
+|1815||
+|1816||
+|1817|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　NDark|
+
+
+|1901|Resource Location|
+
+
+
+
+|2001|Press left mouse button to select the Target Unit.|
+|2002|At lower border of window, there are control panels.|
+|2003|Click to active each function.|
+|2004|Click to fire weapon.|
+
+|2005|You can also use keyboards|
+|2006|to fire weapons / functions.|
+|2007|Try scroll wheel to switch.|
+
+|2008|Press left mouse button to move.|
+|2009|You can also use keyboard.|
+|2010|Up/Down for speed.|
+|2011|Left/Right to turn.|
+
+|2012|Crashing on meteor or other units will damage your ship,|
+|2013|and the nebula will generate unknown negative effects.|
+
+|2014|Try destroy some meteors around you.|
+
+
+|2015|Captain!|
+|2016|One Klingon vessel is jumpping|
+|2017|out of warp.|
+|2018|It doesn't equiped with any weapon,|
+|2019|but is heading collision course.|
+|2020|Try destroy it,|
+|2021|before it catches our ship.|
+
+
+
+|2031|Captain!|
+|2032|3 Klingon warbirds are detected|
+|2033|from long range sensors.|
+|2034|They are equipped with phaser only.|
+|2035|Try not being defeated!|
+
+|2041|Tactic Analysis:|
+|2042|The vessels do not raise their|
+|2043|back shield. Try attack from behind.|
+
+
+|2051|Captain!|
+|2052|Cargo ship Nealson is severely |
+|2053|damaged, and she needs our help.|
+|2054|Try make her reach starbase safely.|
+
+
+|2061|Hint:|
+|2062|The third function of control panels is Trackor Beam.|
+|2063|Active it to pull targets without active engines.|
+|2064|(Attention! Do not pull the ship in severely danger.)|
+
+
+
+|2071|Captain!|
+|2072|Our outposts are hacked|
+|2073|by Romulan Empire!|
+|2074|And the cargo ship Nealson is outside|
+|2075|the line of outposts.|
+|2076|Try drag her to starbase safely.|
+
+|2081|Hint:|
+|2082|Outposts are powerful.|
+|2083|Try find another way,|
+|2084|instead of attacking from the front.|
+
+
+|2091|Captain!|
+|2092|Cargo ship Nealson is heading|
+|2093|to starbase.|
+|2094|Our order is to keep her safe.|
+|2095|Good Luck!|
+
+|2101|Hint:|
+|2102|Specify the component of target unit|
+|2103|to make precisely attack.|
+|2104|Destroy the corresponding part will affect the|
+|2105|functionality of target ships.|
+|2106|(ex. Destroy engine will stop the ship.)|
+
+
+|2111|Captain!|
+|2112|One of our shttle,|
+|2113|cargo ship Nealson, and|
+|2114|hospital ship Consolation is missing.|
+|2115|It might be a trap.|
+|2116|Bring our ships back.|
+
+|2121|Shuttle pilot!|
+|2122|Cardasian dreadnoughts have been|
+|2123|detected by our long range sensors.|
+|2124|Their destination is our planet.|
+|2125|We can only count on your shuttle.|
+
+|2131|Tactic Analysis:|
+|2132|The Cardasian dreadnought has|
+|2133|high-generation shield.|
+|2134|Try destroy shield at a time.|
+
+|2141|Hint:|
+|2142|Use energy manipulator panel to control our energy|
+|2143|using on weapon, engine, sensor, and shield system.|
+|2144|Emphasize on weapon system will increase the damage.|
+
+|2151|Captain!|
+|2152|Cardassian encourages a pirete fleet|
+|2153|toward our starbase. Their vessels are|
+|2154|not strong, but they are out numbered.|
+|2155|Prepare yourself!|
+
+|2161|Full Spread Mulit Attack|
+|2162|Active/Disable special attack control panel by|
+|2163|switch below.|
+|2164|Full Spread Multi Attack mode will fires all|
+|2165|possible weapons to enemyies.|
+
+
+|2171|Captain!|
+|2172|There is a singularity in fron of us.|
+|2173|We are ordered to investigate.|
+
+|2181|Captain!|
+|2182|The singularity appears again.|
+|2183|It's the time to go home.|
+
+
+|2201|Captain!|
+|2202|The simulation today is...|
+|2203|try surviving as much as you can.|
+
+
+|3001|Meteor| 
+|3002|Nebula|
+|3003|Planet|
+
+|3011|Enterprise|
+|3012|Delta Flyer|
+
+|3021|Nealson Cargoship|
+|3022|Federation Defiant|
+|3023|Federation Shuttle|
+|3024|Consolation Hospitalship|
+|3025|Federation Starbase|
+|3026|Federation Outpost|
+
+|3031|Klingon Warbird|
+|3032|Klingon Bird of Prey|
+
+|3041|Romulan Valdore|
+|3042|Romulan Warbird|
+|3043|Romulan Scimitar|
+|3044|Romulan Narada|
+
+|3061|Cardassian Dreadnought|
+|3062|Cardassian Galor|
+|3071|Ferengi D'Kora|
+
+|3081|Cylon Baseship|
+|3082|Battlestar Galactica|
+|3083|Battlestar Pegasus|
+|3084|Colony Viper|
+|3085|Cylon Raider|
+|3086|Cylon Missile|
+
+|3091|Borg Cube|
+
+|4001|Select Mode|
+|4002|Story|
+|4003|Challange|
+
+|4101|Select Ship|
+
+|4201|Select Level|
+
+
+|10001|Unknown vessel! This is Command Adama of Galactica.|
+|10002|We human are extinguished and pursued by robot species Cylons,|
+|10003|we are the remaining fleet.|	
+|10004|Our jump driver will be online in 3 mininutes.|	
+|10005|Please help us with your kindness, or we may not survive this time.|		
+
+|10011|Unknown vessel! This is Cylon command.|	
+|10012|Do not interfere our attack,|	
+|10013|we will terminate the human here in this battle.|	
+	
+|10021|Unknown vessel! This is Admiral Cain of Pegasus.|	
+|10022|Cover Galactica,|	
+|10023|and coordinate your attack on our mark.|	
+	
+|10031|Unknown vessel! We are ready to jump.|	
+|10032|It's glad to have a new friend here, fare well.|	
+	

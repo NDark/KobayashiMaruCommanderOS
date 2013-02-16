@@ -1,0 +1,29 @@
+<Level name="Allies or Foes">
+	<StaticObject name="BackgroundObj" 
+			PrefabName="Template_LevelScene_02" >
+	</StaticObject>
+	
+	<Unit name="UnitTest" 
+			PrefabName="Template_RomulanWarbird01" 
+			unitDataTemplateName="UnitDataTemplate_RomulanWarbird_C01" 
+			raceName="KlingonEmpire" 
+			sideName="Enemy" >
+		<Position3D x="0" y="0" z="30" />
+		<OrientationEuler x="0" y="-180" z="0" />
+		<SupplementalPair label="TargetName" value="MainCharacter" />
+		<SupplementalPair label="WaitForReloadSec" value="1.0" />		
+	</Unit>	
+	
+	<Unit name="MainCharacter" 
+			PrefabName="Template_MainCharacter_Enterprise01" 
+			unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise08" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D x="0" y="0" z="0" />
+		<OrientationEuler x="0" y="0" z="0" />
+	</Unit>
+	
+	
+		
+	
+</Level>

@@ -1,0 +1,85 @@
+<Level name="Singularity">
+	<StaticObject name="BackgroundObj" 
+			PrefabName="Template_LevelScene_02" >
+	</StaticObject>
+	
+	
+	<StaticObject name="MainCharacterStartPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="0" y="0" z="-90" />
+	</StaticObject>
+	
+	<StaticObject name="BlackHolePosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="0" y="0" z="0" />
+	</StaticObject>
+
+	<StaticObject name="Unit_BlackHole001" 
+			PrefabName="Template_BlackHole01" >
+		<Position3D objectName="BlackHolePosition" />
+	</StaticObject>	
+	
+	<AddScriptOnObject objectName="GlobalSingleton" scriptName="CheckLevel9BlackHoleManager" />
+	
+	<Unit name="MainCharacter" 
+			PrefabName="Template_MainCharacter_Enterprise01" 
+			unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise09" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D objectName="MainCharacterStartPosition" />		
+	</Unit>
+	
+	
+	<UsualEvent EventName="EnableMiniMapConditionEvent"
+			Enable="false" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />			
+	</UsualEvent>
+	
+	<UsualEvent EventName="GUITextureShowTimeEvent"
+			objectName="MessageCard_ObjectiveLevel09" 
+			startSec="3.0" 
+			elapsedSec="1.0"
+			audioClipName="incomingtransmission_clean" 
+			/>
+	
+	<UsualEvent EventName="SetLevelObjectiveTimeEvent" 
+			objectName="MessageCard_ObjectiveLevel09" 
+			switchObjectName="GUI_LevelObjectiveSwitcher" 
+			startSec="3.0" 
+			elapsedSec="1.0" 
+			/>	
+	
+
+	<UsualEvent EventName="CameraRoutesEvent"
+			StartSec="2.0" 
+
+			IsDeactiveCameraFollower="true"
+			CameraFollowerName0="CameraFollowMainCharacter" 
+			CameraFollowerName1="CameraShakeEffect" 
+			
+			IsDeactiveMiniMap="false"
+			
+			JudgeDistance="10.0" >
+		
+		<PosRoute Destination="BlackHolePosition" 
+				MoveTime="1.0" 
+				WaitTime="1.0" 
+				MoveDetectGUIObject="" 
+				WaitDetectGUIObject="MessageCard_ObjectiveLevel09" 
+				/>
+	</UsualEvent>
+	
+	<UsualEvent EventName="PlayAnimationConditionEvent"
+			AnimationObjectName="Unit_BlackHole001"
+			AnimationChildObjectName="Dummy"
+			AnimationName="BlackHole01" >	
+		<Condition ConditionName="Condition_Collision" 
+			TestObjectName="MainCharacter" 
+			PosAnchor="BlackHolePosition"
+			JudgeDistance="22" />		
+	</UsualEvent>
+		 
+	
+	<BackgroundMusicAudioPath name="Star Trek - Romulan Ale, Captain!"/>
+</Level>

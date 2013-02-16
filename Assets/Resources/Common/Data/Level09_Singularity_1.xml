@@ -1,0 +1,581 @@
+<Level name="Singularity">
+	<StaticObject name="BackgroundObj" 
+			PrefabName="Template_LevelScene_02" >
+	</StaticObject>
+	
+	
+	<StaticObject name="MainCharacterStartPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-35" y="0" z="-10" />
+	</StaticObject>
+	
+	
+	
+	<StaticObject name="CylonBaseShipStartPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="0" y="0" z="80" />
+	</StaticObject>
+	
+	<StaticObject name="ColonyBattleStarPegasusSpawnPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-20" y="0" z="20" />
+		<OrientationEuler x="0" y="-90" z="0" />
+	</StaticObject>
+
+	<StaticObject name="ColonyBattleStarPegasusViperSpawnPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-60" y="0" z="20" />
+		<OrientationEuler x="0" y="-90" z="0" />
+	</StaticObject>
+	
+	<StaticObject name="ColonyBattleStarPegasusJumpToPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="1020" y="0" z="1020" />
+	</StaticObject>	
+	
+	<StaticObject name="ColonyBattleStarGalacticaStartPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="0" y="0" z="-20" />
+	</StaticObject>
+	
+	<StaticObject name="ColonyBattleStarGalacticaJumpToPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="1000" y="0" z="1000" />
+	</StaticObject>	
+	
+	<StaticObject name="ColonyViper001JumpToPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="1050" y="0" z="1000" />
+	</StaticObject>
+	<StaticObject name="ColonyViper002JumpToPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="1070" y="0" z="1000" />
+	</StaticObject>	
+	<StaticObject name="ColonyViper003JumpToPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="1090" y="0" z="1000" />
+	</StaticObject>		
+	
+	<StaticObject name="ColonyViperStartPosition001" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="40" y="0" z="1" />
+	</StaticObject>
+	
+	<StaticObject name="ColonyViperStartPosition002" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="20" y="0" z="-10" />
+	</StaticObject>
+	
+	<StaticObject name="BlackHoleShouldBePosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-90" y="0" z="0" />
+	</StaticObject>
+	
+	<StaticObject name="BlackHoleStartPosition" 
+			PrefabName="Template_Dummy_StaticObject" >
+		<Position3D x="-900" y="0" z="0" />
+	</StaticObject>
+
+	<StaticObject name="Unit_BlackHole001" 
+			PrefabName="Template_BlackHole01" >
+		<Position3D objectName="BlackHoleStartPosition" />
+		<OrientationEuler x="0" y="-90" z="0" />
+	</StaticObject>	
+
+
+
+	
+	<Unit name="Enemy_CylonBaseShip001" 
+			PrefabName="Template_CylonBaseship01" 
+			unitDataTemplateName="UnitDataTemplate_CylonBaseShip09" 
+			raceName="Cylons" 
+			sideName="Enemy" >
+		<Position3D objectName="CylonBaseShipStartPosition"/>
+		<OrientationEuler x="0" y="90" z="0" />
+		<SupplementalPair label="TargetName" value="Unit_BattleStarGalactica" />
+	</Unit>	
+	
+	
+	
+	
+	<Unit name="Unit_BattleStarGalactica" 
+			PrefabName="Template_ColonyBattlestar01" 
+			unitDataTemplateName="UnitDataTemplate_ColonyBattlestarGalactica09" 
+			raceName="Colonies" 
+			sideName="Ally" >
+		<Position3D objectName="ColonyBattleStarGalacticaStartPosition"/>
+		<OrientationEuler x="0" y="90" z="0" />
+		
+	</Unit>	
+
+	<Unit name="Unit_ColonyViper001" 
+			PrefabName="Template_ColonyViper01" 
+			unitDataTemplateName="UnitDataTemplate_ColonyViper09" 
+			raceName="Colonies" 
+			sideName="Ally" >
+		<Position3D objectName="ColonyViperStartPosition001"/>
+		<OrientationEuler x="0" y="90" z="0" />
+		
+	</Unit>
+	
+	<Unit name="Unit_ColonyViper002" 
+			PrefabName="Template_ColonyViper01" 
+			unitDataTemplateName="UnitDataTemplate_ColonyViper09" 
+			raceName="Colonies" 
+			sideName="Ally" >
+		<Position3D objectName="ColonyViperStartPosition002"/>
+		<OrientationEuler x="0" y="90" z="0" />
+		
+	</Unit>	
+	
+	<Unit name="MainCharacter" 
+			PrefabName="Template_MainCharacter_Enterprise01" 
+			unitDataTemplateName="UnitDataTemplate_MainCharacter_Enterprise09_1" 
+			raceName="Federation" 
+			sideName="Ally" >
+		<Position3D objectName="MainCharacterStartPosition" />
+		<OrientationEuler x="0" y="-90" z="0" />
+	</Unit>
+	
+	
+	
+	<ConversationSet Key="ConversationLevel9_1_ColonyAdama">
+		<Conversation>
+			<Potrait Name="PotraitRight" Texture="Conversation/Conversation_WilliamAdama" />
+			<TalkStr Index="10001" />
+			<TalkStr Index="10002" />
+			<TalkStr Index="10003" />
+			<TalkStr Index="10004" />
+			<TalkStr Index="10005" />
+		</Conversation>
+	</ConversationSet>
+	
+	<ConversationSet Key="ConversationLevel9_1_CylonNumber6">
+	
+		<Conversation>
+			<Potrait Name="PotraitLeft" Texture="Conversation/Conversation_Number6" />
+			<TalkStr Index="10011" />
+			<TalkStr Index="10012" />
+			<TalkStr Index="10013" />
+		</Conversation>
+	</ConversationSet>
+
+	<ConversationSet Key="ConversationLevel9_1_HelenaCain">
+		<Conversation>
+			<Potrait Name="PotraitRight" Texture="Conversation/Conversation_HelenaCain" />
+			<TalkStr Index="10021" />
+			<TalkStr Index="10022" />
+			<TalkStr Index="10023" />
+		</Conversation>
+	</ConversationSet>
+
+	
+	<ConversationSet Key="ConversationLevel9_1_BeforeGalacticaJump">
+		<Conversation>
+			<Potrait Name="PotraitRight" Texture="Conversation/Conversation_WilliamAdama" />
+			<TalkStr Index="10031" />
+			<TalkStr Index="10032" />
+		</Conversation>
+	</ConversationSet>
+
+
+	
+
+
+	<!-- 開始先關閉控制 -->
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="MainCharacter" 
+			ScriptName="MainCharacterController" 
+			AlterCase="Disable" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0" />			
+	</UsualEvent>
+	
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="Unit_BattleStarGalactica" 
+			ScriptName="UnitData" 
+			AlterCase="Disable" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0" />			
+	</UsualEvent>
+	
+	<UsualEvent EventName="EnableEnergyManipulatorPanelConditionEvent"
+			Enable="true" >		
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />			
+	</UsualEvent>
+
+	
+	<UsualEvent EventName="EnableMiniMapConditionEvent"
+			Enable="true" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />
+	</UsualEvent>
+	
+	<UsualEvent EventName="EnableBattleEventCameraManagerConditionEvent"
+			Enable="false" >		
+		<Condition ConditionName="Condition_Time" 
+			StartTime="0.0" />			
+	</UsualEvent>			
+	
+	<!-- 攝影機咖開始 -->
+	<UsualEvent EventName="CameraRoutesEvent"
+			StartSec="1.0" 
+
+			IsDeactiveCameraFollower="true"
+			CameraFollowerName0="CameraFollowMainCharacter" 
+			CameraFollowerName1="CameraShakeEffect" 
+			
+			
+			IsDeactiveMiniMap="true"
+			
+			JudgeDistance="10.0" >
+		
+		<PosRoute Destination="ColonyBattleStarGalacticaStartPosition" 
+				MoveTime="1.0" 
+				WaitTime="1.0" 
+				MoveDetectGUIObject="" 
+				WaitDetectGUIObject="" 
+				/>
+		
+		<PosRoute Destination="CylonBaseShipStartPosition" 
+				MoveTime="1.0" 
+				WaitTime="1.0" 
+				MoveDetectGUIObject="" 
+				WaitDetectGUIObject="" 
+				/>		
+		
+		<PosRoute Destination="MainCharacter" 
+				MoveTime="1.0" 
+				WaitTime="0.0" 
+				MoveDetectGUIObject="" 
+				WaitDetectGUIObject="" 
+				/>			
+	</UsualEvent>
+	
+	
+	<UsualEvent EventName="ActiveConversationConditionEvent"
+			ActiveConversationKey="ConversationLevel9_1_ColonyAdama" >	
+		<Condition ConditionName="Condition_Time" 
+			StartTime="2.0" />
+	</UsualEvent>
+	<UsualEvent EventName="ActiveConversationConditionEvent"
+			ActiveConversationKey="ConversationLevel9_1_CylonNumber6" >	
+		<Condition ConditionName="Condition_Time" 
+			StartTime="4.0" />		
+	</UsualEvent>
+	
+	<!-- 裝上AI -->
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="Enemy_CylonBaseShip001" 
+			ScriptName="AI_CylonBaseShip09" 
+			AlterCase="Add" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="6.0" />			
+	</UsualEvent>
+	
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="Unit_BattleStarGalactica" 
+			ScriptName="AI_FireToClosestEnemy" 
+			AlterCase="Add" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="6.0" />			
+	</UsualEvent>
+	
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="Unit_BattleStarGalactica" 
+			ScriptName="UnitData" 
+			AlterCase="Enable" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="6.0" />			
+	</UsualEvent>
+	
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="Unit_ColonyViper001" 
+			ScriptName="AI_FireToClosestEnemy" 
+			AlterCase="Add" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="6.0" />			
+	</UsualEvent>
+	
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="Unit_ColonyViper002" 
+			ScriptName="AI_FireToClosestEnemy" 
+			AlterCase="Add" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="6.0" />			
+	</UsualEvent>
+	
+	<!-- 開始戰鬥 -->
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="MainCharacter" 
+			ScriptName="MainCharacterController" 
+			AlterCase="Enable" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="6.0" />			
+	</UsualEvent>
+	
+	
+
+	
+	<UsualEvent EventName="EnableBattleEventCameraManagerConditionEvent"
+			Enable="true"
+			ElapsedSec="1.0" >		
+		<Condition ConditionName="Condition_Time" 
+			StartTime="6.0" />			
+	</UsualEvent>		
+	
+	<AddScriptOnObject objectName="GlobalSingleton" scriptName="CountDownTimeManager" />	
+	<UsualEvent EventName="ActiveCountDownConditionEvent"
+			TotalSec="180.0" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="6.0" />			
+	</UsualEvent>
+	
+	<UsualEvent EventName="PlayBackgroundMusicConditionEvent" 
+			AudioName="Battlestar Galactica - Aqua Vitae [Balanced Audio]" >
+		<Condition ConditionName="Condition_Time" 
+					StartTime="6.0" />			
+	</UsualEvent>
+
+	
+	<!-- 白馬號出現 -->
+	<UsualEvent EventName="JumpEffectTimeEvent"
+			TargetObjectName="ColonyBattleStarPegasusSpawnPosition" 
+			Vortex="true"
+			StartSec="120.0" 
+			ElapsedSec="5.0"
+			/>
+	<EnemyGeneration 
+			name="Unit_ColonyBattleStarPegasus"
+			PrefabName="Template_ColonyBattlestar01"
+			unitDataTemplateName="UnitDataTemplate_ColonyBattlestarPegasus09" 
+			raceName="Colonies" 
+			sideName="Ally" 
+			time="125.5" >
+		<Position3D objectName="ColonyBattleStarPegasusSpawnPosition" />	
+		<OrientationEuler x="0" y="-90" z="0" />
+		
+	</EnemyGeneration>
+		
+	<EnemyGeneration 
+			name="Unit_ColonyViper003"
+			PrefabName="Template_ColonyViper01"
+			unitDataTemplateName="UnitDataTemplate_ColonyViper09_1" 
+			raceName="Colonies" 
+			sideName="Ally" 
+			time="125.5" >
+		<Position3D objectName="ColonyBattleStarPegasusViperSpawnPosition" />	
+		<OrientationEuler x="0" y="-90" z="0" />
+		
+	</EnemyGeneration>
+	
+
+	<UsualEvent EventName="ActiveConversationConditionEvent"
+			ActiveConversationKey="ConversationLevel9_1_HelenaCain" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="126.0" />		
+	</UsualEvent>
+
+
+	<!-- 銀河號跳躍離開前對話 -->
+	<UsualEvent EventName="ActiveConversationConditionEvent"
+			ActiveConversationKey="ConversationLevel9_1_BeforeGalacticaJump" >	
+		<Condition ConditionName="Condition_UnitIsAlive" 
+			UnitName="Unit_BattleStarGalactica" />		
+		<Condition ConditionName="Condition_Time" 
+			StartTime="186.0" />
+	</UsualEvent>
+	
+	<!-- 改變敵人目標的第二條件 銀河號死亡(必須使用Dying,在剛死之際就換目標,避免AI因為先前的目標死亡進入Close狀態 -->
+	<UsualEvent EventName="Level9ChangeTargetConditionEvent" >
+		<Condition ConditionName="Condition_UnitIsDead" 
+			UnitName="Unit_BattleStarGalactica" />	
+	</UsualEvent>
+	
+	<!-- 銀河號跳躍前先改變敵人目標 -->
+	<UsualEvent EventName="Level9ChangeTargetConditionEvent" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="186.5" />			
+	</UsualEvent>
+	
+	<!-- 攝影機咖開始 -->
+	<UsualEvent EventName="CameraRoutesEvent"
+			StartSec="184.0" 
+
+			IsDeactiveCameraFollower="true"
+			CameraFollowerName0="CameraFollowMainCharacter" 
+			CameraFollowerName1="CameraShakeEffect" 
+			IsDeactiveMiniMap="true"
+			JudgeDistance="10.0" >
+		
+		<PosRoute Destination="Unit_BattleStarGalactica" 
+				MoveTime="2.0" 
+				WaitTime="1.0" 
+				MoveDetectGUIObject="" 
+				WaitDetectGUIObject="" 
+				/>
+		<PosRoute Destination="Unit_ColonyBattleStarPegasus" 
+				MoveTime="1.0" 
+				WaitTime="1.0" 
+				MoveDetectGUIObject="" 
+				WaitDetectGUIObject="" 
+				/>
+		
+		<PosRoute Destination="MainCharacter" 
+				MoveTime="1.0" 
+				WaitTime="0.0" 
+				MoveDetectGUIObject="" 
+				WaitDetectGUIObject="" 
+				/>			
+	</UsualEvent>
+	
+	<!-- 銀河號跳躍離開 -->
+	<UsualEvent EventName="JumpEffectTimeEvent"
+			TargetObjectName="Unit_BattleStarGalactica" 
+			Vortex="false"
+			StartSec="186.5" 
+			ElapsedSec="0.0"
+			/>
+	
+	<UsualEvent EventName="MoveObjectPositionConditionEvent"
+			ObjectName="Unit_BattleStarGalactica" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="187" />				
+		<Position3D objectName="ColonyBattleStarGalacticaJumpToPosition"/>
+	</UsualEvent>
+	
+	<!-- 毒蛇號離開 -->
+	<UsualEvent EventName="MoveObjectPositionConditionEvent"
+			ObjectName="Unit_ColonyViper001" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="187" />						
+		<Position3D objectName="ColonyViper001JumpToPosition"/>
+	</UsualEvent>
+	<UsualEvent EventName="MoveObjectPositionConditionEvent"
+			ObjectName="Unit_ColonyViper002" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="187" />						
+		<Position3D objectName="ColonyViper002JumpToPosition"/>
+	</UsualEvent>
+
+	<UsualEvent EventName="AlterScriptConditionEvent"
+			ObjectName="Unit_BattleStarGalactica" 
+			ScriptName="AI_FireToClosestEnemy" 
+			AlterCase="Disable" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="187" />			
+	</UsualEvent>
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="Unit_ColonyViper001" 
+			ScriptName="AI_FireToClosestEnemy" 
+			AlterCase="Disable" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="187" />			
+	</UsualEvent>
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="Unit_ColonyViper002" 
+			ScriptName="AI_FireToClosestEnemy" 
+			AlterCase="Disable" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="187" />			
+	</UsualEvent>
+	
+
+	
+	<!-- 白馬號跳躍離開 -->
+	<UsualEvent EventName="JumpEffectTimeEvent"
+			TargetObjectName="Unit_ColonyBattleStarPegasus" 
+			Vortex="false"
+			StartSec="188.5" 
+			ElapsedSec="0.0"
+			/>
+	<UsualEvent EventName="MoveObjectPositionConditionEvent"
+			ObjectName="Unit_ColonyBattleStarPegasus" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="189.1" />
+		<Position3D objectName="ColonyBattleStarPegasusJumpToPosition"/>
+	</UsualEvent>
+
+	<!-- 毒蛇號離開 -->	
+	<UsualEvent EventName="MoveObjectPositionConditionEvent"
+			ObjectName="Unit_ColonyViper003" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="189" />		
+		<Position3D objectName="ColonyViper003JumpToPosition"/>
+	</UsualEvent>
+
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="Unit_ColonyBattleStarPegasus" 
+			ScriptName="AI_FireToClosestEnemy" 
+			AlterCase="Disable" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="189" />			
+	</UsualEvent>
+	<UsualEvent EventName="AlterScriptConditionEvent" 
+			ObjectName="Unit_ColonyViper003" 
+			ScriptName="AI_FireToClosestEnemy" 
+			AlterCase="Disable" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="189" />			
+	</UsualEvent>
+	
+	<!-- 移動黑洞 -->
+	<UsualEvent EventName="MoveObjectPositionConditionEvent"
+			ObjectName="Unit_BlackHole001" >
+		<Condition ConditionName="Condition_Time" 
+			StartTime="189" />			
+		<Position3D objectName="BlackHoleShouldBePosition"/>
+	</UsualEvent>
+	
+	<UsualEvent EventName="CameraRoutesEvent"
+			StartSec="192" 
+
+			IsDeactiveCameraFollower="true"
+			CameraFollowerName0="CameraFollowMainCharacter" 
+			CameraFollowerName1="CameraShakeEffect" 
+			
+			IsDeactiveMiniMap="true"
+			
+			JudgeDistance="10.0" >
+		
+		<PosRoute Destination="Unit_BlackHole001" 
+				MoveTime="1.0" 
+				WaitTime="1.0" 
+				MoveDetectGUIObject="" 
+				WaitDetectGUIObject="" 
+				/>
+		
+		<PosRoute Destination="MainCharacter" 
+				MoveTime="1.0" 
+				WaitTime="0.0" 
+				MoveDetectGUIObject="" 
+				WaitDetectGUIObject="" 
+				/>			
+	</UsualEvent>
+	
+	<!-- 任務目標 -->
+	<UsualEvent EventName="GUITextureShowTimeEvent"
+			objectName="MessageCard_ObjectiveLevel09_1" 
+			startSec="193.0" 
+			elapsedSec="1.0"
+			audioClipName="" 
+			/>
+	
+	<UsualEvent EventName="SetLevelObjectiveTimeEvent" 
+			objectName="MessageCard_ObjectiveLevel09_1" 
+			switchObjectName="GUI_LevelObjectiveSwitcher" 
+			startSec="193.0" 
+			elapsedSec="1.0" 
+			/>	
+
+	
+	
+	<VictoryCondition ConditionName="Condition_Collision" 
+		TestObjectName="MainCharacter" 
+		PosAnchor="Unit_BlackHole001"
+		JudgeDistance="15" />
+	<LoseCondition ConditionName="Condition_MainCharacterIsDead" />
+
+
+</Level>

@@ -1,0 +1,34 @@
+﻿[分享] 小林丸指揮官 v0.6.1 釋出
+
+各位好 Kobayashi Maru Commander 小林丸指揮官 v0.6.1 釋出了。
+小林丸指揮官 是一個 Star Trek 背景 及星際射擊 的 同人/原型遊戲
+自2012年9月以來已經釋出四次版本。
+
+本版本新增了羅慕倫戰鳥，克林貢猛禽，還加上了三個關卡。達到總共六關。
+
+希望各位大德先賢可以幫忙撥冗測試，
+尤其有任何不能下載，不能執行的問題，都麻煩通知我（推文，ptt信件，facebook社團）。
+
+預告下一版會製作本遊戲最後的重頭戲關卡，敬請期待。
+
+開發人員募集中，請不要吝惜你的力量，玩家的意見是我製作的動力。
+
+畫面截圖(screenshot)
+
+新增的三個關卡
+short link: http://tinyurl.com/bvq84nm
+選關
+short link: http://preview.tinyurl.com/cmbeowa
+
+如何遊玩(how to play)
+
+# 網頁遊玩[瀏覽器需安裝Unity web player]
+http://kobayashi.gadgetapp.net
+# 下載壓縮檔
+short link: http://tinyurl.com/ccqwtlp
+
+
+臉書社團(facebook group):  
+http://www.facebook.com/groups/151280021681743/
+
+

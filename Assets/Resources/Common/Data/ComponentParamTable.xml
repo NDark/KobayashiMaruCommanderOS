@@ -1,0 +1,424 @@
+<ComponentParamTable>
+	<ComponentParam componentName="Sensor01" displayName="Sensor" >
+		<GUIPosition x="100.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	
+	<ComponentParam componentName="Shield_Whole01" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Whole01"
+			displayName="Shield" >
+		<GUIPosition x="100.0" y="120.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	
+	<ComponentParam componentName="Shield_Whole02" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Whole01"
+			displayName="Shield" >
+		<GUIPosition x="100.0" y="120.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	
+	<ComponentParam componentName="Shield_Front01" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="100.0" y="200.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Shield_Front02" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="100.0" y="180.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Shield_Front03" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="50.0" y="200.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Shield_Front04" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="150.0" y="200.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	
+	<ComponentParam componentName="Shield_Rear01" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="100.0" y="0.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	<ComponentParam componentName="Shield_Rear02" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="100.0" y="20.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	<ComponentParam componentName="Shield_Rear03" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="50.0" y="0.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Shield_Rear04" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="150.0" y="0.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	
+	<ComponentParam componentName="Shield_Left01" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="20.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	<ComponentParam componentName="Shield_Left02" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="40.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	<ComponentParam componentName="Shield_Left03" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="10.0" y="150.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Shield_Left04" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="10.0" y="50.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	
+	<ComponentParam componentName="Shield_Right01" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="180.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	<ComponentParam componentName="Shield_Right02" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="200.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Shield_Right03" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="190.0" y="150.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Shield_Right04" 
+			effect3DObjectTemplateName="Template_Effect_Shield_Front01"
+			displayName="Shield" >
+		<GUIPosition x="190.0" y="50.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	
+	
+	<ComponentParam componentName="Weapon_PhotonTorpedo01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_PhotonTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="100.0" y="140.0" width="200.0" height="200.0" />
+	</ComponentParam>			
+	<ComponentParam componentName="Weapon_DisruptorTorpedo_Front01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="100.0" y="180.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorTorpedo_Front02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="60.0" y="130.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorTorpedo_Front03" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="140.0" y="130.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorTorpedo_Front04" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="100.0" y="160.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	
+	<ComponentParam componentName="Weapon_DisruptorTorpedo_Rear01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="100.0" y="20.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	<ComponentParam componentName="Weapon_DisruptorTorpedo_Left01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="20.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorTorpedo_Left02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="60.0" y="140.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	<ComponentParam componentName="Weapon_DisruptorTorpedo_Right01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="180.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorTorpedo_Right02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="140.0" y="140.0" width="200.0" height="200.0" />
+	</ComponentParam>			
+	
+	<ComponentParam componentName="Weapon_NaradaTorpedo01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_NaradaTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="70.0" y="140.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_NaradaTorpedo02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_NaradaTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="70.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_NaradaTorpedo03" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_NaradaTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="70.0" y="60.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	<ComponentParam componentName="Weapon_NaradaTorpedo04" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_NaradaTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="130.0" y="140.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_NaradaTorpedo05" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_NaradaTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="130.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_NaradaTorpedo06" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_NaradaTorpedo01"
+			displayName="Torpedo" >
+		<GUIPosition x="130.0" y="60.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	
+	<ComponentParam componentName="Weapon_Phaser_Rear01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_Phaser01"
+			displayName="Phaser" >
+		<GUIPosition x="100.0" y="50.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	<ComponentParam componentName="Weapon_Phaser_Front01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_Phaser01"
+			displayName="Phaser" >
+		<GUIPosition x="100.0" y="160.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_Phaser_Front02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_Phaser01"
+			displayName="Phaser" >
+		<GUIPosition x="140.0" y="140.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_Phaser_Front03" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_Phaser01"
+			displayName="Phaser" >
+		<GUIPosition x="60.0" y="140.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_Phaser_Front04" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_Phaser01"
+			displayName="Phaser" >
+		<GUIPosition x="100.0" y="190.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	<ComponentParam componentName="Weapon_Phaser_Front05" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_Phaser01"
+			displayName="Phaser" >
+		<GUIPosition x="70.0" y="160.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_Phaser_Front06" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_Phaser01"
+			displayName="Phaser" >
+		<GUIPosition x="130.0" y="160.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	
+	
+	
+	<ComponentParam componentName="Weapon_CylonCannon_Left01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_CylonCannon01"
+			displayName="Cannon" >
+		<GUIPosition x="70.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	<ComponentParam componentName="Weapon_CylonCannon_Right01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_CylonCannon01"
+			displayName="Cannon" >
+		<GUIPosition x="130.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	
+	<ComponentParam componentName="Weapon_BattleStarCannon_Front01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_BattleStarCannon01"
+			displayName="Cannon" >
+		<GUIPosition x="100.0" y="170.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	<ComponentParam componentName="Weapon_BattleStarCannon_Rear01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_BattleStarCannon01"
+			displayName="Cannon" >
+		<GUIPosition x="100.0" y="30.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+
+	
+	<ComponentParam componentName="Weapon_DisruptorArray_Front01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorArray01"
+			displayName="Disrupter" >
+		<GUIPosition x="100.0" y="160.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	
+	<ComponentParam componentName="Weapon_DisruptorArray_Front02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorArray01"
+			displayName="Disrupter" >
+		<GUIPosition x="40.0" y="160.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorArray_Front03" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorArray01"
+			displayName="Disrupter" >
+		<GUIPosition x="160.0" y="160.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorArray_Rear02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorArray01"
+			displayName="Disrupter" >
+		<GUIPosition x="40.0" y="40.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorArray_Rear03" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorArray01"
+			displayName="Disrupter" >
+		<GUIPosition x="160.0" y="40.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	
+	
+	<ComponentParam componentName="Weapon_DisruptorArray_Left01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorArray01"
+			displayName="Disrupter" >
+		<GUIPosition x="30.0" y="70.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorArray_Left02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorArray01"
+			displayName="Disrupter" >
+		<GUIPosition x="10.0" y="120.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	
+	<ComponentParam componentName="Weapon_DisruptorArray_Right01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorArray01"
+			displayName="Disrupter" >
+		<GUIPosition x="170.0" y="70.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorArray_Right02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorArray01"
+			displayName="Disrupter" >
+		<GUIPosition x="190.0" y="120.0" width="200.0" height="200.0" />
+	</ComponentParam>
+
+	
+	<ComponentParam componentName="Weapon_DisruptorCannon_Front01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorCannon01"
+			displayName="Cannon" >
+		<GUIPosition x="100.0" y="180.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorCannon_Front02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorCannon01"
+			displayName="Cannon" >
+		<GUIPosition x="80.0" y="180.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorCannon_Front03" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorCannon01"
+			displayName="Cannon" >
+		<GUIPosition x="120.0" y="180.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	<ComponentParam componentName="Weapon_DisruptorCannon_Left01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorCannon01"
+			displayName="Cannon" >
+		<GUIPosition x="30.0" y="140.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorCannon_Left02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorCannon01"
+			displayName="Cannon" >
+		<GUIPosition x="10.0" y="140.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	<ComponentParam componentName="Weapon_DisruptorCannon_Right01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorCannon01"
+			displayName="Cannon" >
+		<GUIPosition x="170.0" y="140.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="Weapon_DisruptorCannon_Right02" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_DisruptorCannon01"
+			displayName="Cannon" >
+		<GUIPosition x="190.0" y="140.0" width="200.0" height="200.0" />
+	</ComponentParam>
+		
+	
+	
+	<ComponentParam componentName="Weapon_TrackorBeam01" 
+			effect3DObjectTemplateName="Template_Effect_Weapon_TrackorBeam01"
+			displayName="Trackor Beam" >
+		<GUIPosition x="100.0" y="120.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	
+	<ComponentParam componentName="ImpulseEngine_Front01" 
+			displayName="Engine" >
+		<GUIPosition x="100.0" y="160.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	
+	<ComponentParam componentName="ImpulseEngine_Rear01" displayName="Engine" >
+		<GUIPosition x="100.0" y="40.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Rear02" displayName="Engine" >
+		<GUIPosition x="60.0" y="30.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Rear03" displayName="Engine" >
+		<GUIPosition x="140.0" y="30.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Rear04" displayName="Engine" >
+		<GUIPosition x="70.0" y="50.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Rear05" displayName="Engine" >
+		<GUIPosition x="130.0" y="50.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	
+	<ComponentParam componentName="ImpulseEngine_Rear06" displayName="Engine" >
+		<GUIPosition x="100.0" y="40.0" width="200.0" height="200.0" />
+	</ComponentParam>	
+	
+	<ComponentParam componentName="ImpulseEngine_Rear07" displayName="Engine" >
+		<GUIPosition x="70.0" y="10.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	<ComponentParam componentName="ImpulseEngine_Rear08" displayName="Engine" >
+		<GUIPosition x="130.0" y="10.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	<ComponentParam componentName="ImpulseEngine_Rear09" displayName="Engine" >
+		<GUIPosition x="70.0" y="40.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	<ComponentParam componentName="ImpulseEngine_Rear10" displayName="Engine" >
+		<GUIPosition x="130.0" y="40.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Rear11" displayName="Engine" >
+		<GUIPosition x="70.0" y="10.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	<ComponentParam componentName="ImpulseEngine_Rear12" displayName="Engine" >
+		<GUIPosition x="130.0" y="10.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	
+	<ComponentParam componentName="ImpulseEngine_Left01" displayName="Engine" >
+		<GUIPosition x="30.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Left02" displayName="Engine" >
+		<GUIPosition x="30.0" y="60.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Left03" displayName="Engine" >
+		<GUIPosition x="70.0" y="70.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Left04" displayName="Engine" >
+		<GUIPosition x="62.0" y="80.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Left05" displayName="Engine" >
+		<GUIPosition x="70.0" y="120.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Left06" displayName="Engine" >
+		<GUIPosition x="62.0" y="70.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	
+	<ComponentParam componentName="ImpulseEngine_Right01" displayName="Engine" >
+		<GUIPosition x="170.0" y="100.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Right02" displayName="Engine" >
+		<GUIPosition x="170.0" y="60.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	<ComponentParam componentName="ImpulseEngine_Right03" displayName="Engine" >
+		<GUIPosition x="130.0" y="70.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Right04" displayName="Engine" >
+		<GUIPosition x="138.0" y="80.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Right05" displayName="Engine" >
+		<GUIPosition x="130.0" y="120.0" width="200.0" height="200.0" />
+	</ComponentParam>
+	<ComponentParam componentName="ImpulseEngine_Right06" displayName="Engine" >
+		<GUIPosition x="138.0" y="70.0" width="200.0" height="200.0" />
+	</ComponentParam>		
+	
+</ComponentParamTable>

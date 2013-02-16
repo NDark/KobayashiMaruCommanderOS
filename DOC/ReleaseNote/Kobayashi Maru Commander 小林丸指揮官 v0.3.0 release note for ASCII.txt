@@ -1,0 +1,35 @@
+﻿[分享] 小林丸指揮官 v0.3 釋出
+
+各位好 KobayashiMaruCommander 小林丸指揮官 v0.3 釋出了。
+希望各位大德先賢可以幫忙撥冗測試，
+尤其有任何不能下載，不能執行的問題，都麻煩通知我（推文，ptt信件，facebook社團）。
+
+本版本增加了牽引光束功能，慢慢真的像是一個Star Trek遊戲了。
+
+預告下一版會有針對感測器與脈衝引擎設計的關卡，敬請期待。
+
+開發人員募集中，請不要吝惜你的力量，玩家的意見是我製作的動力。
+
+畫面截圖(screenshot)
+
+牽引光束
+short link: http://tinyurl.com/afbac3x
+選關
+short link: http://tinyurl.com/bh6jqew
+
+album(facebook)
+short link: http://tinyurl.com/bh9o9my
+
+如何遊玩(how to play)
+
+# 網頁遊玩[瀏覽器需安裝Unity web player]
+http://kobayashi.gadgetapp.net
+# 下載壓縮檔
+short link: http://tinyurl.com/abckfeb
+
+
+聯絡方式(contact)
+
+臉書社團(facebook group):  
+http://www.facebook.com/groups/151280021681743/
+
