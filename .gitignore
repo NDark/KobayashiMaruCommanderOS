@@ -1,1 +1,6 @@
 /Library
+/*.sln
+/*.unityproj
+/*.csproj
+/*.pidb
+/*.userprefs
