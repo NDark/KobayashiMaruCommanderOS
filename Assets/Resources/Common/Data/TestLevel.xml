@@ -3,7 +3,7 @@
 			PrefabName="Template_LevelScene_02" >
 	</StaticObject>
 	
-	<Unit name="UnitTest" 
+	<Unit name="Enemy_UnitTest" 
 			PrefabName="Template_RomulanWarbird01" 
 			unitDataTemplateName="UnitDataTemplate_RomulanWarbird_C01" 
 			raceName="KlingonEmpire" 
