@@ -2,7 +2,7 @@
 |1001|Kobayashi Maru Commander|
 |1002|Press To Enter|
 |1003|Kobayashi Maru Commander is a fan-based none-profit prototype|
-|1004|game project. I developped it from Sep. 2012 to Feb. 2013.|
+|1004|game project. It is developped since Sep. 2012.|
 |1005|Enjoy and feel free to comment, and report bugs.|
 
 
