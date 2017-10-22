@@ -6,7 +6,7 @@ If you do not agree to this license, do not download, install, copy or use the s
 
     License Agreement For Kobayashi Maru Commander Open Source
 
-Copyright (C) 2013, Chih-Jen Teng(NDark) and Koguyue Entertainment, 
+Copyright (C) 2013 ~ 2017, Chih-Jen Teng(NDark) and Koguyue Entertainment, 
 all rights reserved. Third party copyrights are property of their respective owners. 
 
 Redistribution and use in source and binary forms, with or without modification,

@@ -1,0 +1,8 @@
+[submodule "Assets/ndinfra/EditorTools"]
+	path = Assets/ndinfra/EditorTools
+	url = https://github.com/NDark/ndinfrastructure.git
+	branch = F_EditorTools
+[submodule "Assets/ndinfra/UnityTools"]
+	path = Assets/ndinfra/UnityTools
+	url = https://github.com/NDark/ndinfrastructure.git
+	branch = F_UnityTools

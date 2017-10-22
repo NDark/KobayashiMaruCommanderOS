@@ -1,6 +1,11 @@
-/*.sln
-/*.unityproj
-/*.csproj
-/*.pidb
+/Temp
+/Library
+/BIN
+
+
 /*.userprefs
-/Library/ScriptAssemblies
+/*.csproj
+/*.unityproj
+/*.sln
+/Library/*.log
+.DS_Store
